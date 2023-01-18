@@ -1,0 +1,135 @@
+---
+title: "ITTF Rankings Scraper"
+author: "KF"
+format: 
+    html:
+        code-fold: show
+        code-tools: false
+        toc: true
+        toc-location: left
+        code-overflow: wrap
+execute: 
+  echo: true
+---
+
+## Background
+
+This script was written as a continuation of the [ITTF Rankings 2001-2020 data analysis and visualization project](https://github.com/kenf1/Kaggle_ITTF). Instead of having the data readily available in .csv format, I took on the task of collecting the data myself by web scraping the [ITTF rankings](https://www.ittf.com/rankings/) website.
+
+## Scrape Data from ITTF Website
+
+These code chunks scrapes data from the ITTF Rankings website and saves it locally as a Pandas dataframe.
+
+```{python}
+#for web scraping
+import requests
+from bs4 import BeautifulSoup
+#modify/tidy scraped data
+import pandas as pd
+import numpy as np
+#create figures
+import plotly.express as px
+#misc
+# import datetime
+import re
+```
+
+```{python}
+#setup
+URL = "https://www.ittf.com/wp-content/uploads/2022/05/2022_19_SEN_MS.html"
+soup = BeautifulSoup(requests.get(URL).content,"html.parser")
+#scrape data
+results = soup.find(id="content")
+#show results
+# print(results.prettify())
+```
+
+```{python}
+#get dataset title
+rankingType = results.find("td",class_="listdataleft").text.strip()
+#extract year
+# datasetYear = str(re.findall("\\d{4}",rankingType))
+datasetYear = re.sub(r"[^0-9]","",str(re.findall("\\d{4}",rankingType)))
+#extract event & week
+competition = re.split("\\d{4}",rankingType)
+#event
+datasetEvent = competition[0]
+#week
+datasetWeek = competition[1]
+#store results of colNames (html table)
+headers_list = []
+for i in results.find_all("tr",class_="tablehead"):
+    title = i.text.strip()
+    headers_list.append(title)
+#rm new lines
+headers = headers_list[0].split("\n")
+#convert list to string + tidy
+new_header = ",".join(headers).replace("'","").split(" ")
+```
+
+```{python}
+#create df to store results
+ittf_rank = pd.DataFrame(columns=new_header)
+#store results of html table
+results.find_all("tr",class_='rrow')
+for j in results.find_all("tr",class_="rrow")[0:]:
+    row_data = j.find_all("td")
+    ittf_rank.loc[len(ittf_rank)] = [tr.text for tr in row_data]
+```
+
+```{python}
+#split rank into number + change from previous rank
+def rankExtract(position):
+    temp = ittf_rank["Rank"].str.split(" ").str[position]
+    return temp
+ittf_rank["Rank Only"] = rankExtract(0)
+ittf_rank["Rank Change"] = rankExtract(1)
+#reorder cols + drop Rank (w/ ranking change)
+ittf_rank = ittf_rank[["Rank Only","Rank Change","Name","Assoc","Points"]]
+#convert rank & points to numeric
+ittf_rank[["Rank Only","Points"]] = ittf_rank[["Rank Only","Points"]].astype(int)
+```
+
+```{python}
+#dataset full name
+fullName = datasetEvent+" "+datasetYear+datasetWeek
+#top n players (adjust if nec)
+top_n_players = ittf_rank[0:30]
+top_n_players_display = top_n_players.style.set_caption(fullName)
+#workaround for table title
+# print(datasetEvent+" "+datasetYear+datasetWeek)
+top_n_players_display
+```
+
+### Save as csv file
+
+Because my plan to run this script periodically, I need to save the scraped results in a csv file with the full dataset title as the file name.
+
+```{python}
+#create timestamp of date scrapper was ran
+# dfName = f'M_ITTF_{datetime.datetime.now().strftime("%m-%d-%Y")}.csv'
+#save to csv
+ittf_rank.to_csv(f"ITTF "+fullName+".csv",index=False)
+```
+
+## Create Figures
+
+```{python}
+#repeated title/subtitle components
+titleRepeat = " (Top "+str(len(top_n_players))+" Players)"+"<br><sup>"+fullName+"</sup></br>"
+#num players per assoc
+fig1 = px.pie(top_n_players,"Assoc",title="Association Breakdown"+titleRepeat)
+fig1.show()
+```
+
+```{python}
+#country + total points for top ranked players
+fig = px.bar(top_n_players,x="Points",y="Name",color="Assoc",title="Number of Points"+titleRepeat)
+fig.update_layout(yaxis={'categoryorder':'total ascending'})
+```
+
+## Acknowledgments
+
+1. RealPython [BeautifulSoup Tutorial](https://realpython.com/beautiful-soup-web-scraper-python/)
+
+1. GitHub user [txx4986's](https://github.com/txx4986) [framework/working example](https://github.com/txx4986/Web-scraping-ITTF-rankings)
