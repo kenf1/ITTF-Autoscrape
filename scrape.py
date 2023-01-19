@@ -2,8 +2,6 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import numpy as np
-import plotly_express as px
 import re
 
 #setup
@@ -11,33 +9,38 @@ URL = "https://www.ittf.com/wp-content/uploads/2023/01/2023_2_SEN_MS.html"
 soup = BeautifulSoup(requests.get(URL).content,"html.parser")
 results = soup.find(id="content")
 
-#wrangle dataset metadata
 #get dataset title
 rankingType = results.find("td",class_="listdataleft").text.strip()
+
 #extract year
-# datasetYear = str(re.findall("\\d{4}",rankingType))
 datasetYear = re.sub(r"[^0-9]","",str(re.findall("\\d{4}",rankingType)))
+
 #extract event & week
 competition = re.split("\\d{4}",rankingType)
+
 #event
 datasetEvent = competition[0]
+
 #week
 datasetWeek = competition[1]
+
 #store results of colNames (html table)
 headers_list = []
 for i in results.find_all("tr",class_="tablehead"):
     title = i.text.strip()
     headers_list.append(title)
+
 #rm new lines
 headers = headers_list[0].split("\n")
+
 #convert list to string + tidy
 new_header = ",".join(headers).replace("'","").split(" ")
 
-fullName = datasetEvent+" "+datasetYear+datasetWeek
+fullName = f"{datasetEvent} {datasetYear}{datasetWeek}"
 
-#save results to dataset.csv
 #create df to store results
 ittf_rank = pd.DataFrame(columns=new_header)
+
 #store results of html table
 results.find_all("tr",class_='rrow')
 for j in results.find_all("tr",class_="rrow")[0:]:
@@ -48,11 +51,15 @@ for j in results.find_all("tr",class_="rrow")[0:]:
 def rankExtract(position):
     temp = ittf_rank["Rank"].str.split(" ").str[position]
     return temp
+
 ittf_rank["Rank Only"] = rankExtract(0)
 ittf_rank["Rank Change"] = rankExtract(1)
+
 #reorder cols + drop Rank (w/ ranking change)
 ittf_rank = ittf_rank[["Rank Only","Rank Change","Name","Assoc","Points"]]
+
 #convert rank & points to numeric
 ittf_rank[["Rank Only","Points"]] = ittf_rank[["Rank Only","Points"]].astype(int)
 
-ittf_rank.to_csv("/Users/v1/GH/Autoscrape/data/dataset.csv",index=False)
+#save to csv
+ittf_rank.to_csv("data/dataset.csv",index=False)
