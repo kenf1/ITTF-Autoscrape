@@ -2,7 +2,7 @@ name: Scrape on schedule
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # runs quarterly (1st day of month)
+    - cron: "0 1 1 */3 *" # runs quarterly (1st day of month)
 
   workflow_dispatch: # allows workflow to be run manually
 
