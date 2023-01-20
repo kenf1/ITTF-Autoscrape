@@ -1,28 +1,35 @@
-#import modules
+#--- import modules ---#
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 import re
+import pandas as pd
 
-#setup
-URL = "https://www.ittf.com/wp-content/uploads/2023/01/2023_2_SEN_MS.html"
-soup = BeautifulSoup(requests.get(URL).content,"html.parser")
+#--- scrape & save data ---#
+
+#ITTF rankings home directory
+rankings_link = "https://www.ittf.com/rankings/"
+
+#function to scrape link
+def bs4_setup(scrape_url):
+    """function to scrape link
+
+    Args:
+        scrape_url (str): link to scrape from
+
+    Returns:
+        _type_: scraped results
+    """
+    temp = BeautifulSoup(requests.get(scrape_url).content,"html.parser")
+    return temp
+
+#obtain latest update (Men's singles)
+soup = bs4_setup(rankings_link)
+results = soup.find(class_="theiaStickySidebar").find_all("ul")[1].find("li").find("a",href=True)
+current_link = results["href"]
+
+#scrape from current_link
+soup = bs4_setup(current_link)
 results = soup.find(id="content")
-
-#get dataset title
-rankingType = results.find("td",class_="listdataleft").text.strip()
-
-#extract year
-datasetYear = re.sub(r"[^0-9]","",str(re.findall("\\d{4}",rankingType)))
-
-#extract event & week
-competition = re.split("\\d{4}",rankingType)
-
-#event
-datasetEvent = competition[0]
-
-#week
-datasetWeek = competition[1]
 
 #store results of colNames (html table)
 headers_list = []
@@ -30,15 +37,26 @@ for i in results.find_all("tr",class_="tablehead"):
     title = i.text.strip()
     headers_list.append(title)
 
-#rm new lines
+#--- obtain metadata ---#
+
+#extract dataset title
+rankingType = results.find("td",class_="listdataleft").text.strip()
+
+#extract year
+datasetYear = re.sub(r"[^0-9]","",str(re.findall("\\d{4}",rankingType)))
+
+#extract week
+datasetWeek = re.split("\\d{4}",rankingType)[1]
+
+#--- wrangle scraped data ---#
+
+#rm new lines (\n)
 headers = headers_list[0].split("\n")
 
 #convert list to string + tidy
 new_header = ",".join(headers).replace("'","").split(" ")
 
-fullName = f"{datasetEvent} {datasetYear}{datasetWeek}"
-
-#create df to store results
+#create empty df to store results
 ittf_rank = pd.DataFrame(columns=new_header)
 
 #store results of html table

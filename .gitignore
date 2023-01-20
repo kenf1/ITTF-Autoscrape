@@ -204,3 +204,6 @@ cython_debug/
 
 #Others
 .DS_Store
+Sandbox.qmd
+testapp.py
+ref_code/
