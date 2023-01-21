@@ -48,6 +48,15 @@ datasetYear = re.sub(r"[^0-9]","",str(re.findall("\\d{4}",rankingType)))
 #extract week
 datasetWeek = re.split("\\d{4}",rankingType)[1]
 
+#create empty df
+ittf_metadata = pd.DataFrame(columns=["rankingType","datasetYear","datasetWeek"])
+
+#store metadata
+ittf_metadata.loc[len(ittf_metadata)] = [rankingType,datasetYear,datasetWeek]
+
+#save to csv
+ittf_metadata.to_csv("data/metadata.csv",index=False)
+
 #--- wrangle scraped data ---#
 
 #rm new lines (\n)

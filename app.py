@@ -3,16 +3,22 @@ import pandas as pd
 import plotly_express as px
 import streamlit as sl
 
-#--- import data ---#
-ittf_rank = pd.read_csv("data/dataset.csv")
+#import data
+ittf_rank = pd.read_csv("data/dataset.csv")[:30]
+ittf_metadata = pd.read_csv("data/metadata.csv")
+
+#extract year & week
+datasetYear = ittf_metadata["datasetYear"][0]
+datasetWeek = ittf_metadata["datasetWeek"][0]
 
 #--- interactive web app ---#
 
 #site text
-# sl.title(f"ITTF Men's Singles Rankings for {datasetYear} Wk:{datasetWeek}")
+sl.title(f"ITTF Men's Singles Rankings for {datasetYear} {datasetWeek}")
 sl.markdown("By: [KF](https://github.com/kenf1)")
-sl.text("A auto-updating interactive dashboard to visualize the \n countries and total number of points \n for the world's top ranked 30 table tennis players.")
+sl.text("An auto-updating interactive dashboard to visualize the \n countries and total number of points \n for the world's top ranked 30 table tennis players.")
 sl.markdown("Data source: [ITTF Rankings](https://www.ittf.com/rankings/)")
+sl.markdown("***Note:*** _All figures are interactive. Double-click anywhere inside the figures to reset to default view._")
 
 #subset data (only keep top 30 players)
 ittf_rank = ittf_rank[:30]
@@ -31,7 +37,8 @@ sl.markdown("#### The world's top 30 table tennis players are from these countri
 sl.plotly_chart(fig1)
 
 sl.markdown("#### Total points (color coded by country) for each player:")
+sl.markdown("__Format:__ `Name` `SURNAME`")
 sl.plotly_chart(fig2)
 
-sl.markdown("#### All players whose rank has changed (raised/dropped).")
+sl.markdown("#### All players whose rank has changed (`raised`/`dropped`).")
 sl.dataframe(table1)
