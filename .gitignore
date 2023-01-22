@@ -1,3 +1,5 @@
+#--- GitIgnore Template for Combined R+Python DS Projects ---#
+
 # History files
 .Rhistory
 .Rapp.history
