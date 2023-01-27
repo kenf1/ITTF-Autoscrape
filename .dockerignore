@@ -1,0 +1,6 @@
+.venv
+.env*
+.github
+ref_code/
+Sandbox.qmd
+testapp.py
