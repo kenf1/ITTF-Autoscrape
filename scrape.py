@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import pandas as pd
+import sqlite3 as sql
 
 #--- scrape & save data ---#
 
@@ -90,3 +91,9 @@ ittf_rank[["Rank Only","Points"]] = ittf_rank[["Rank Only","Points"]].astype(int
 
 #save to csv
 ittf_rank.to_csv("data/dataset.csv",index=False)
+
+#save to sql db
+connection = sql.connect("./data/ittf.db")
+ittf_metadata.to_sql("metadata",connection,if_exists="replace")
+ittf_rank.to_sql("M_rankings",connection,if_exists="replace")
+connection.close()

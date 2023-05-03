@@ -29,6 +29,7 @@ def homepage():
     sl.markdown("By: [KF](https://github.com/kenf1)")
     sl.text("An auto-updating interactive dashboard to visualize the \n countries and total number of points \n for the world's top ranked 30 table tennis players.")
     sl.markdown("Data source: [ITTF Rankings](https://www.ittf.com/rankings/)")
+    sl.markdown("A copy of the dataset can be downloaded from [Dataset link](https://github.com/kenf1/ITTF-Autoscrape/tree/main/data)")
     sl.image("https://www.theindianwire.com/wp-content/uploads/2018/08/table-tennis.jpeg")
 
 #subset data (only keep top 30 players)
