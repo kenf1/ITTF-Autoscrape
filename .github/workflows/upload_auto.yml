@@ -23,6 +23,6 @@ jobs:
         with:
           id: "${{ secrets.KAGGLE_USERNAME }}/ittf_ranks"
           title: "International Table Tennis Federation Men's Single Rankings"
-          desctiption: "Auto-updating dataset by https://github.com/kenf1 <br>Source: https://github.com/kenf1/ITTF-Autoscrape</br>"
+          description: "Auto-updating dataset by https://github.com/kenf1 <br>Source: https://github.com/kenf1/ITTF-Autoscrape</br>"
           files: "./data/*.csv"
           is_public: true
