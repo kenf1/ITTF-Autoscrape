@@ -10,12 +10,12 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message,"Update dataset")
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
       
       - name: Deploy to production
-        if: contains(github.event.head_commit.message,"Update dataset")
         uses: jaimevalero/push-kaggle-dataset@v3
         
         env:
@@ -23,7 +23,7 @@ jobs:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         
         with:
-          id: ${{ format('{0}/{1}', secrets.KAGGLE_USERNAME, ittf_ranks) }}
+          id: "${{ secrets.KAGGLE_USERNAME }}/ittf_ranks"
           title: "International Table Tennis Federation Men's Single Rankings"
           desctiption: "Auto-updating dataset by https://github.com/kenf1 <br>Source: https://github.com/kenf1/ITTF-Autoscrape</br>"
           files: "./data/*.csv"
