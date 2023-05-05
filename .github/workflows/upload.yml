@@ -10,7 +10,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    if: contains(github.event.head_commit.message,"Update dataset")
+    if: "contains(github.event.head_commit.message, 'Update dataset')"
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
