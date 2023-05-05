@@ -1,0 +1,25 @@
+name: Upload to Kaggle (manual)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Deploy to production
+        uses: jaimevalero/push-kaggle-dataset@v3
+        
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+        
+        with:
+          id: "${{ secrets.KAGGLE_USERNAME }}/ittf_ranks"
+          title: "International Table Tennis Federation Men's Single Rankings"
+          desctiption: "Auto-updating dataset by https://github.com/kenf1 <br>Source: https://github.com/kenf1/ITTF-Autoscrape</br>"
+          files: "./data/*.csv"
+          is_public: true
