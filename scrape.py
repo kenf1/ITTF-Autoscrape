@@ -1,9 +1,12 @@
 #--- import modules ---#
+#base
+import re
+import sqlite3 as sql
+
+#supplement
 import requests
 from bs4 import BeautifulSoup
-import re
 import pandas as pd
-import sqlite3 as sql
 
 #--- scrape & save data ---#
 
