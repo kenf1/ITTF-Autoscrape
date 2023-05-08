@@ -4,8 +4,8 @@ import plotly_express as px
 import streamlit as sl
 
 #import data
-ittf_rank = pd.read_csv("data/dataset.csv")
-ittf_metadata = pd.read_csv("data/metadata.csv")
+ittf_rank = pd.read_csv("https://raw.githubusercontent.com/kenf1/ITTF-Autoscrape/main/data/dataset.csv")
+ittf_metadata = pd.read_csv("https://raw.githubusercontent.com/kenf1/ITTF-Autoscrape/main/data/metadata.csv")
 
 #extract year & week
 datasetYear = ittf_metadata["datasetYear"][0]

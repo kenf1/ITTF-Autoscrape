@@ -3,3 +3,4 @@ plotly_express
 streamlit
 bs4
 requests
+sqlite3
