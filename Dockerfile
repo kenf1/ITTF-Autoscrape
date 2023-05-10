@@ -14,4 +14,4 @@ RUN pip3 install -r ./app/requirements.txt
 #run app
 EXPOSE 8501
 HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
-ENTRYPOINT ["streamlit", "run", "./app/Home.py", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["python3","-m","streamlit","run","./app/Home.py","--server.port=8501","--server.address=0.0.0.0"]

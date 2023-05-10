@@ -36,11 +36,11 @@ ittf_rank_short = ittf_rank[:30]
 fig1 = px.pie(ittf_rank_short,"Assoc",title="Countries Represented")
 
 #fig4
-fig4 = px.bar(ittf_rank_short,x=ittf_rank_short["Assoc"].value_counts(),y=ittf_rank_short["Assoc"].value_counts().index,
-              title="Countries Represented in the Top 30")
-fig4.update_layout(yaxis={'categoryorder':'total ascending'})
-fig4.update_xaxes(title_text="Count")
-fig4.update_yaxes(title_text="Countries")
+# fig4 = px.bar(ittf_rank_short,x=ittf_rank_short["Assoc"].value_counts(),y=ittf_rank_short["Assoc"].value_counts().index,
+#               title="Countries Represented in the Top 30")
+# fig4.update_layout(yaxis={'categoryorder':'total ascending'})
+# fig4.update_xaxes(title_text="Count")
+# fig4.update_yaxes(title_text="Countries")
 
 #fig2
 fig2 = px.bar(ittf_rank_short,x="Points",y="Name",color="Assoc",title="Total Points Count for Each Player")
@@ -57,7 +57,7 @@ fig3.update_layout(yaxis={'categoryorder':'total ascending'})
 def countries_rep():
     sl.markdown("#### The world's top 30 table tennis players are from these countries:")
     sl.plotly_chart(fig1)
-    sl.plotly_chart(fig4)
+    # sl.plotly_chart(fig4)
 
 #display bar output
 def total_pt():
