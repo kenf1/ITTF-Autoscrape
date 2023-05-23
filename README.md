@@ -1,6 +1,6 @@
 ## Autoscrape ITTF Rankings
 
-[![](https://img.shields.io/badge/-Dashboard-blue)](https://ittf-autoscrape.onrender.com/) [![Scrape on schedule](https://github.com/kenf1/ITTF-Autoscrape/actions/workflows/scrape.yml/badge.svg?branch=main)](https://github.com/kenf1/ITTF-Autoscrape/actions/workflows/scrape.yml) [![Upload to Kaggle (automated)](https://github.com/kenf1/ITTF-Autoscrape/actions/workflows/upload_auto.yml/badge.svg?branch=main)](https://github.com/kenf1/ITTF-Autoscrape/actions/workflows/upload_auto.yml)
+[![](https://img.shields.io/badge/-Dashboard-blue)](https://ittf-autoscrape.onrender.com/) [![Scrape on schedule](https://github.com/kenf1/ITTF-Autoscrape/actions/workflows/scrape.yml/badge.svg?branch=main)](https://github.com/kenf1/ITTF-Autoscrape/actions/workflows/scrape.yml)
 
 This project is a continuation of my previous [ITTF_Rankings](https://github.com/kenf1/TT-DS/tree/main/Rankings) project where I obtained the dataset via R and Python webscraping. In this project, I will be using Python to scrape and build a dashboard of the most current [ITTF Men's Singles rankings](https://www.ittf.com/rankings/).
 

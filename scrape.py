@@ -43,20 +43,21 @@ for i in results.find_all("tr",class_="tablehead"):
 
 #--- obtain metadata ---#
 
-#extract dataset title
-rankingType = results.find("td",class_="listdataleft").text.strip()
+class metadata:
+    #extract dataset title
+    rankingType = results.find("td",class_="listdataleft").text.strip()
 
-#extract year
-datasetYear = re.sub(r"[^0-9]","",str(re.findall("\\d{4}",rankingType)))
+    #extract year
+    datasetYear = re.sub(r"[^0-9]","",str(re.findall("\\d{4}",rankingType)))
 
-#extract week
-datasetWeek = re.split("\\d{4}",rankingType)[1]
+    #extract week
+    datasetWeek = re.split("\\d{4}",rankingType)[1]
 
 #create empty df
-ittf_metadata = pd.DataFrame(columns=["rankingType","datasetYear","datasetWeek"])
+ittf_metadata = pd.DataFrame(columns=[metadata.rankingType,metadata.datasetYear,metadata.datasetWeek])
 
 #store metadata
-ittf_metadata.loc[len(ittf_metadata)] = [rankingType,datasetYear,datasetWeek]
+ittf_metadata.loc[len(ittf_metadata)] = [metadata.rankingType,metadata.datasetYear,metadata.datasetWeek]
 
 #save to csv
 ittf_metadata.to_csv("data/metadata.csv",index=False)
