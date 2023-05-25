@@ -76,8 +76,8 @@ def scrape_table(header_input,content_input):
         
     return ittf_rank
 
-#save scraped data into: csv & sql db
-def save_dataset(metadata_df,data_df,filename,to_SQL=True):
+#save scraped data into: csv only (set to_SQL=True for SQL db as well)
+def save_dataset(metadata_df,data_df,filename,to_SQL):
     metadata_df.to_csv(f"./data/{filename}-metadata.csv",index=False)
     data_df.to_csv(f"./data/{filename}-data.csv",index=False)
     
@@ -106,4 +106,4 @@ if __name__ == "__main__":
     siteContent = obtain_links(rankings_link)
     metadata = scrape_metadata(siteContent.cleanURLs[0])
     final = scrape_table(metadata.colNames,metadata.html_data)
-    save_dataset(metadata.ittf_metadata,final,metadata.filename)
+    save_dataset(metadata.ittf_metadata,final,metadata.filename,False)

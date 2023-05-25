@@ -1,3 +1,6 @@
+#--- Imports ---#
+
+import os
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -74,17 +77,34 @@ def scrape_table(header_input,content_input):
         
     return ittf_rank
 
-#save scraped data into: csv & sql db
-def save_dataset(metadata_df,data_df,filename,to_SQL=True):
+#save scraped data into: csv & sql db (set to_SQL=True for separate SQL db files)
+def save_dataset(metadata_df,data_df,filename,to_SQL):
     metadata_df.to_csv(f"./data/{filename}-metadata.csv",index=False)
     data_df.to_csv(f"./data/{filename}-data.csv",index=False)
     
     if to_SQL == True:
         connection = sql.connect(f"./data/{filename}.db")
         metadata_df.to_sql("metadata",connection,if_exists="replace")
-        data_df.to_sql("M_rankings",connection,if_exists="replace")
+        data_df.to_sql(filename,connection,if_exists="replace")
         connection.close()
-   
+
+#save all -data.csv to single SQL db
+def csv2db(path,searchTerm,dbName):
+    filename = []
+    
+    for file in os.listdir(path):
+        if file.endswith(searchTerm):
+            filename.append(file)
+    
+    con = sql.connect(dbName)
+    
+    for item in filename:
+        df = pd.read_csv(f"{path}/{item}")
+        tablename = os.path.splitext(item)[0].replace(searchTerm,"").replace("-data","").replace("SEN_","")
+        df.to_sql(tablename,con,index=False,if_exists="replace")
+        
+    con.close()
+
 #--- Scrape & save ---#
 
 #site homepage
@@ -93,8 +113,12 @@ rankings_link = "https://www.ittf.com/rankings/"
 #links for each ranking dataset
 siteContent = obtain_links(rankings_link)
 
-#scrape & save
+#scrape & save (csv only)
 for i in range(len(siteContent.cleanURLs)):
     metadata = scrape_metadata(siteContent.cleanURLs[i])
     final = scrape_table(metadata.colNames,metadata.html_data)
-    save_dataset(metadata.ittf_metadata,final,metadata.filename)
+    save_dataset(metadata.ittf_metadata,final,metadata.filename,False)
+
+#save all -data.csv & -metadata.csv to respective single SQL db
+csv2db("data","-data.csv","./data/player_rank.db")
+csv2db("data","-metadata.csv","./data/metadata.db")
