@@ -1,3 +1,5 @@
+#Local demo ver (only downloads Men's Single Dataset)
+
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -94,7 +96,14 @@ rankings_link = "https://www.ittf.com/rankings/"
 siteContent = obtain_links(rankings_link)
 
 #scrape & save
-for i in range(len(siteContent.cleanURLs)):
-    metadata = scrape_metadata(siteContent.cleanURLs[i])
+# for i in range(len(siteContent.cleanURLs)):
+#     metadata = scrape_metadata(siteContent.cleanURLs[i])
+#     final = scrape_table(metadata.colNames,metadata.html_data)
+#     save_dataset(metadata.ittf_metadata,final,metadata.filename)
+
+#demo ver specific
+if __name__ == "__main__":
+    siteContent = obtain_links(rankings_link)
+    metadata = scrape_metadata(siteContent.cleanURLs[0])
     final = scrape_table(metadata.colNames,metadata.html_data)
     save_dataset(metadata.ittf_metadata,final,metadata.filename)

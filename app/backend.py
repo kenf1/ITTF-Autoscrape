@@ -1,5 +1,6 @@
 #--- import modules ---#
 import pandas as pd
+import requests
 import plotly_express as px
 import streamlit as sl
 
@@ -13,41 +14,51 @@ def pg_config():
 
 #import data
 class links:
-    dataset="https://raw.githubusercontent.com/kenf1/ITTF-Autoscrape/main/data/dataset.csv"
-    metadata="https://raw.githubusercontent.com/kenf1/ITTF-Autoscrape/main/data/metadata.csv"
-    img="https://www.theindianwire.com/wp-content/uploads/2018/08/table-tennis.jpeg"
-    gh_issue="https://github.com/kenf1/ITTF-Autoscrape/issues"
-    author="App by: [KF](https://github.com/kenf1)"
+#list of hosted & local ver   
+    dataset = ["https://raw.githubusercontent.com/kenf1/ITTF-Autoscrape/main/data/SEN_MS-data.csv","../data/SEN_MS-data.csv"]
+    metadata = ["https://raw.githubusercontent.com/kenf1/ITTF-Autoscrape/main/data/SEN_MS-data-metadata.csv","../data/SEN_MS-metadata.csv"]
+#other links
+    img = "https://www.theindianwire.com/wp-content/uploads/2018/08/table-tennis.jpeg"
+    gh_issue = "https://github.com/kenf1/ITTF-Autoscrape/issues"
+    author = "App by: [KF](https://github.com/kenf1)"
 
-ittf_rank = pd.read_csv(links.dataset)
-ittf_metadata = pd.read_csv(links.metadata)
+#check if dataset exists in GH repo, loads local csv file if not
+def load_data(url_list):
+    response = requests.head(url_list[0])
+    if response.status_code == 200:
+        df = pd.read_csv(url_list[0])
+    else:
+        df = pd.read_csv(url_list[1])
+    return df
 
-#dataset metadata
-class dataset:
-    year=ittf_metadata["datasetYear"][0]
-    week=ittf_metadata["datasetWeek"][0]
+#store all data in class
+class ittf:
+    rank_df = load_data(links.dataset)
+    metadata_df = load_data(links.metadata)
+    year = metadata_df["datasetYear"][0]
+    week = metadata_df["datasetWeek"][0]
+    
+    #subset data (only keep top 30 players)
+    rank_short = rank_df[:30]
 
 #--- interactive web app ---#
 
-#subset data (only keep top 30 players)
-ittf_rank_short = ittf_rank[:30]
-
 #fig1
-fig1 = px.pie(ittf_rank_short,"Assoc",title="Countries Represented")
+fig1 = px.pie(ittf.rank_short,"Assoc",title="Countries Represented")
 
 #fig4
-# fig4 = px.bar(ittf_rank_short,x=ittf_rank_short["Assoc"].value_counts(),y=ittf_rank_short["Assoc"].value_counts().index,
+# fig4 = px.bar(ittf.rank_short,x=ittf.rank_short["Assoc"].value_counts(),y=ittf.rank_short["Assoc"].value_counts().index,
 #               title="Countries Represented in the Top 30")
 # fig4.update_layout(yaxis={'categoryorder':'total ascending'})
 # fig4.update_xaxes(title_text="Count")
 # fig4.update_yaxes(title_text="Countries")
 
 #fig2
-fig2 = px.bar(ittf_rank_short,x="Points",y="Name",color="Assoc",title="Total Points Count for Each Player")
+fig2 = px.bar(ittf.rank_short,x="Points",y="Name",color="Assoc",title="Total Points Count for Each Player")
 fig2.update_layout(yaxis={'categoryorder':'total ascending'})
 
 #table1
-table1 = ittf_rank_short[~ittf_rank_short["Rank Change"].isna()]
+table1 = ittf.rank_short[~ittf.rank_short["Rank Change"].isna()]
 
 #fig3
 fig3 = px.bar(table1,x="Points",y="Name",color="Assoc",title="Players with Rank Change")
@@ -73,7 +84,7 @@ def rankchange():
 
 #display full dataset
 def full_dataset():
-    sl.dataframe(ittf_rank,width=1000,height=750)
+    sl.dataframe(ittf.rank_df,width=1000,height=750)
 
 #homepage
 def homepage():
@@ -81,7 +92,7 @@ def homepage():
                        menu_items={"Get help":None,
                                    "Report a Bug":links.gh_issue,
                                    "About":links.author})
-    sl.title(f"ITTF Men's Singles Rankings for {dataset.year} {dataset.week}")
+    sl.title(f"ITTF Men's Singles Rankings for {ittf.year} {ittf.week}")
     sl.markdown(links.author)
     sl.text("An auto-updating interactive dashboard to visualize the countries \n and total number of points for the world's top ranked 30 table tennis players.")
     sl.image(links.img)
