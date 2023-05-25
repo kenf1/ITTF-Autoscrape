@@ -16,7 +16,7 @@ def pg_config():
 class links:
 #list of hosted & local ver   
     dataset = ["https://raw.githubusercontent.com/kenf1/ITTF-Autoscrape/main/data/SEN_MS-data.csv","../data/SEN_MS-data.csv"]
-    metadata = ["https://raw.githubusercontent.com/kenf1/ITTF-Autoscrape/main/data/SEN_MS-data-metadata.csv","../data/SEN_MS-metadata.csv"]
+    metadata = ["https://raw.githubusercontent.com/kenf1/ITTF-Autoscrape/main/data/SEN_MS-metadata.csv","../data/SEN_MS-metadata.csv"]
 #other links
     img = "https://www.theindianwire.com/wp-content/uploads/2018/08/table-tennis.jpeg"
     gh_issue = "https://github.com/kenf1/ITTF-Autoscrape/issues"
