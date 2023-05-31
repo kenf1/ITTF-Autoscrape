@@ -92,7 +92,8 @@ def homepage():
                        menu_items={"Get help":None,
                                    "Report a Bug":links.gh_issue,
                                    "About":links.author})
-    sl.title(f"ITTF Men's Singles Rankings for {ittf.year} {ittf.week}")
+    sl.title(f"ITTF Men's Singles Rankings")
+    sl.subheader(f"Year {ittf.year}, {ittf.week}")
     sl.markdown(links.author)
     sl.text("An auto-updating interactive dashboard to visualize the countries \n and total number of points for the world's top ranked 30 table tennis players.")
     sl.image(links.img)
@@ -102,4 +103,4 @@ def sidebar():
     sl.sidebar.markdown("# Created By: [KF](https://github.com/kenf1)")
     sl.sidebar.markdown("   ")
     sl.sidebar.markdown("Data source: [ITTF Rankings](https://www.ittf.com/rankings/)")
-    sl.sidebar.markdown("A copy of the dataset can be downloaded from: [Dataset link](https://github.com/kenf1/ITTF-Autoscrape/tree/main/data)")
+    sl.sidebar.markdown('A copy of the dataset can be downloaded from: \n \n <a href="https://github.com/kenf1/ITTF-Autoscrape/tree/main/data"><img src="https://logosmarcas.net/wp-content/uploads/2020/12/GitHub-Simbolo.png" height="38" /></a> <a href="https://mega.nz/folder/cIwFQKbI#F4BzQEww3yQSMUj5THSZjw"><img src="http://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/mega-icon.png" height="38" /></a> <a href="https://www.kaggle.com/datasets/bmarcg/ittf-rankings-may-2022"><img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/kaggle_logo_icon_168474.png" height="38" /></a>',unsafe_allow_html=True)

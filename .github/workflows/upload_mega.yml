@@ -1,11 +1,10 @@
 name: Upload to Mega
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "30 19 1 */1 *" #set to run 30 min after scrape action starts
 
-  # push:
-  #   branches:
-  #     - main
+  workflow_dispatch:
 
 jobs:
   build:
