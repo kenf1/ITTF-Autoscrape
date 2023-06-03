@@ -1,0 +1,13 @@
+{
+    "title": "All ITTF Rankings", 
+    "subtitle": "In CSV and SQL database",
+    "description": "Internation Table Tennis Federation rankings for all of the following categories: Men's singles, Men's doubles, Women's singles, and Women's doubles. player_rank.db contains all of the -data.csv files, metadata.db contains all of the -metadata.csv files. \n [Data source](https://www.ittf.com/rankings) \n [Men's Singles Ranking Dashboard](https://ittf-autoscrape.onrender.com/) \n [GitHub repo](https://github.com/kenf1/ITTF-Autoscrape)",
+    "id": "bmarcg/all-ittf-rankings",
+    "licenses": [{"name": "CC-BY-SA-3.0"}],
+    "keywords": [
+      "beginner",
+      "sports",
+      "tabular",
+      "SQL"
+    ]
+  }
