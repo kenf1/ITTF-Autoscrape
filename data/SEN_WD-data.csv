@@ -1,406 +1,399 @@
 Rank Only,Rank Change,Name,Assoc,Points
-1,,JEON Jihee / SHIN Yubin, KOR ,3570
+1,,JEON Jihee / SHIN Yubin, KOR ,4190
 2,,CHEN Meng / WANG Yidi, CHN ,3440
 3,,WANG Manyu / SUN Yingsha, CHN ,2740
-4,,CHENG I-Ching / LI Yu-Jhun, TPE ,1813
-5,,Sofia POLCANOVA / Bernadette SZOCS, AUT / ROU ,1515
-6,,Linda BERGSTROM / Christina KALLBERG, SWE ,1420
-7,,DOO Hoi Kem / ZHU Chengzhu, HKG ,1335
-8,,ZHANG Rui / KUAI Man, CHN ,1305
-9,,Xia Lian NI / Sarah DE NUTTE, LUX ,1185
-10,,Mima ITO / Hina HAYATA, JPN ,1090
-11,,Miyu NAGASAKI / Miyuu KIHARA, JPN ,950
-12,,Camille LUTZ / Prithika PAVADE, FRA ,848
-13,,Barbora BALAZOVA / Hana MATELOVA, SVK / CZE ,833
-14,,Elizabeta SAMARA / Andreea DRAGOMAN, ROU ,819
-15,,Miyu NAGASAKI / Miwa HARIMOTO, JPN ,755
-16,,Amy WANG / Rachel SUNG, USA ,699
-17,,LEE Zion / CHOI Hyojoo, KOR ,650
-18,,CHEN Xingtong / KUAI Man, CHN ,600
-19,,WANG Yidi / KUAI Man, CHN ,600
-20,,Sutirtha MUKHERJEE / Ayhika MUKHERJEE, IND ,537
-21,,Maria XIAO / Adina DIACONU, ESP / ROU ,531
+4,,CHENG I-Ching / LI Yu-Jhun, TPE ,1879
+5,,Linda BERGSTROM / Christina KALLBERG, SWE ,1470
+6,,DOO Hoi Kem / ZHU Chengzhu, HKG ,1335
+7,,Mima ITO / Hina HAYATA, JPN ,1090
+8,,Miyu NAGASAKI / Miyuu KIHARA, JPN ,1090
+9,,Sofia POLCANOVA / Bernadette SZOCS, AUT / ROU ,1015
+10,↑1,Camille LUTZ / Prithika PAVADE, FRA ,983
+11,↓1,Xia Lian NI / Sarah DE NUTTE, LUX ,955
+12,,ZHANG Rui / KUAI Man, CHN ,905
+13,,Barbora BALAZOVA / Hana MATELOVA, SVK / CZE ,819
+14,,Amy WANG / Rachel SUNG, USA ,699
+15,,LEE Zion / CHOI Hyojoo, KOR ,650
+16,,Miyu NAGASAKI / Miwa HARIMOTO, JPN ,600
+17,,CHEN Xingtong / KUAI Man, CHN ,600
+18,,WANG Yidi / KUAI Man, CHN ,600
+19,,HUANG Yi-Hua / CHEN Szu-Yu, TPE ,564
+20,,CHOI Hyojoo / KIM Nayeong, KOR ,560
+21,,Sutirtha MUKHERJEE / Ayhika MUKHERJEE, IND ,537
 22,,Hana GODA / Alaa YEHIA, EGY ,510
 23,,Chunyi FENG / Yangzi LIU, AUS ,500
-24,,HUANG Yi-Hua / CHEN Szu-Yu, TPE ,494
-25,,FAN Siqi / LIU Weishan, CHN ,490
-26,,Yousra HELMY / Mariam ALHODABY, EGY ,465
-27,,Luca KUMAHARA / Bruna TAKAHASHI, BRA ,440
-28,,Barbora BALAZOVA / Lily ZHANG, SVK / USA ,439
-29,,QIAN Tianyi / SHI Xunyao, CHN ,434
-30,,Manika BATRA / Archana Girish KAMATH, IND ,434
-31,,QIAN Tianyi / CHEN Xingtong, CHN ,400
-32,,Miu HIRANO / Hina HAYATA, JPN ,400
-33,,Suthasini SAWETTABUT / Orawan PARANANG, THA ,399
-34,,Sreeja AKULA / Diya Parag CHITALE, IND ,366
-35,,Miyuu KIHARA / Miwa HARIMOTO, JPN ,359
-36,,Minhyung JEE / Jian Fang LAY, AUS ,350
-37,,ZENG Jian / ZHOU Jingyi, SGP ,339
-38,,HE Zhuojia / SHI Xunyao, CHN ,295
-39,,FAN Shuhan / XU Yi, CHN ,285
-40,,SHIN Yubin / CHOI Hyojoo, KOR ,280
-41,,QIAN Tianyi / LIU Weishan, CHN ,280
-42,,Georgina POTA / Dora MADARASZ, HUN ,269
-43,,Chantal MANTZ / Yuan WAN, GER ,269
-44,,ZANG Xiaotong / WU Yangchen, CHN ,268
-45,,Ivana MALOBABIC / Mateja JEGER, CRO ,266
-46,,RYU Hanna / KIM Nayeong, KOR ,240
-47,,Sabine WINTER / Annett KAUFMANN, GER ,239
-48,,HAN Feier / QIN Yuxuan, CHN ,235
-49,,Yadira SILVA / Arantxa COSSIO ACEVES, MEX ,235
-50,,Prithika PAVADE / Charlotte LUTZ, FRA ,205
-51,,Melanie DIAZ / Adriana DIAZ, PUR ,201
-52,,WONG Xin Ru / ZHOU Jingyi, SGP ,187
-53,,Xiaona SHAN / Nina MITTELHAM, GER ,184
-54,,Zodwa MAPHANGA / Danisha PATEL, RSA ,184
-55,,YOON Hyobin / KIM Nayeong, KOR ,180
-56,,Maram ZOGHLAMI / Narimene-Hind SIDDEKI, TUN / ALG ,175
-57,,Jiayi ZHOU / Abbey WEBB, NZL ,175
-58,,Zhehan Joanna YANG / Cecilia HUANG, NZL ,175
-59,,Idalys LOVET / Daniela FONSECA CARRAZANA, CUB ,175
-60,,Katia KESSACI / Lynda LOGHRAIBI, ALG ,175
-61,,LEE Ho Ching / NG Wing Lam, HKG ,175
-62,,LEE Ho Ching / CHEN Szu-Yu, HKG / TPE ,175
-63,,Lily ZHANG / Amy WANG, USA ,175
-64,,Xiaona SHAN / Miyu NAGASAKI, GER / JPN ,175
-65,,Tatiana KUKULKOVA / Ema LABOSOVA, SVK ,165
-66,,Paulina VEGA / Daniela ORTEGA, CHI ,157
-67,,HE Zhuojia / WANG Xiaotong, CHN ,155
-68,,Anna WEGRZYN / Katarzyna WEGRZYN, POL ,151
-69,,LIU Hsing-Yin / HUANG Yu-Wen, TPE ,150
-70,↑2,QI Fei / WU Yangchen, CHN ,150
-71,↓1,Suhana SAINI / Yashaswini GHORPADE, IND ,150
-72,↓1,Debora VIVARELLI / Giorgia PICCOLIN, ITA ,150
-73,,Tin-Tin HO / Karoline MISCHEK, ENG / AUT ,148
-74,,WONG Xin Ru / GOI Rui Xuan, SGP ,146
-75,,Miu HIRANO / Miyu NAGASAKI, JPN ,144
-76,,Barbora BALAZOVA / Camille LUTZ, SVK / FRA ,142
-77,,ZANG Xiaotong / YANG Yiyun, CHN ,142
-78,,Audrey ZARIF / Leili MOSTAFAVI, FRA ,141
-79,,Sakura MORI / Asuka SASAO, JPN ,140
-80,,Sabine WINTER / Natalia BAJOR, GER / POL ,140
-81,,Minami ANDO / Miwa HARIMOTO, JPN ,137
-82,,Amelie SOLJA / Vivien SCHOLZ, AUT / LUX ,136
-83,,Sibel ALTINKAYA / Simay KULAKCEKEN, TUR ,131
-84,,HUANG Yi-Hua / HUANG Yu-Jie, TPE ,127
-85,,Ozge YILMAZ / Ece HARAC, TUR ,126
-86,,KIM Nayeong / JOO Cheonhui, KOR ,125
-87,,HE Zhuojia / LIU Weishan, CHN ,125
-88,,SHI Xunyao / YANG Huijing, CHN ,125
-89,↓1,KIM Seongjin / LEE Daeun, KOR ,115
-90,↓1,WANG Yiduo / CHU Hanwen, CHN ,110
-91,↑1,Stephanie LOEUILLETTE / Oceane GUISNEL, FRA ,106
-92,↓2,LEE Eunhye / KIM Hayeong, KOR ,105
-93,↓2,CHEN Meng / WANG Manyu, CHN ,105
-94,↓1,Mabelyn ENRIQUEZ / Lucia CORDERO, GUA ,100
-95,↓1,Sabine WINTER / Nina MITTELHAM, GER ,100
-96,↓1,Fu YU / Jieni SHAO, POR ,100
-97,↓1,Anna HURSEY / Sophie EARLEY, WAL / ENG ,100
-98,↓1,Ana TOFANT / Katarina STRAZAR, SLO ,94
+24,,Elizabeta SAMARA / Andreea DRAGOMAN, ROU ,469
+25,,Yousra HELMY / Mariam ALHODABY, EGY ,465
+26,,Barbora BALAZOVA / Lily ZHANG, SVK / USA ,439
+27,,QIAN Tianyi / SHI Xunyao, CHN ,434
+28,,Manika BATRA / Archana Girish KAMATH, IND ,434
+29,,FAN Siqi / LIU Weishan, CHN ,405
+30,,QIAN Tianyi / CHEN Xingtong, CHN ,400
+31,,Miu HIRANO / Hina HAYATA, JPN ,400
+32,,Sreeja AKULA / Diya Parag CHITALE, IND ,366
+33,,Miyuu KIHARA / Miwa HARIMOTO, JPN ,359
+34,,Maria XIAO / Adina DIACONU, ESP / ROU ,356
+35,↑9,Ivana MALOBABIC / Mateja JEGER, CRO ,354
+36,↓1,Minhyung JEE / Jian Fang LAY, AUS ,350
+37,↓1,ZENG Jian / ZHOU Jingyi, SGP ,339
+38,↓1,Suthasini SAWETTABUT / Orawan PARANANG, THA ,334
+39,↑3,Chantal MANTZ / Yuan WAN, GER ,292
+40,↓2,FAN Shuhan / XU Yi, CHN ,285
+41,↓2,SHIN Yubin / CHOI Hyojoo, KOR ,280
+42,↓2,QIAN Tianyi / LIU Weishan, CHN ,280
+43,↓2,Georgina POTA / Dora MADARASZ, HUN ,269
+44,↑1,RYU Hanna / KIM Nayeong, KOR ,240
+45,↑1,Sabine WINTER / Annett KAUFMANN, GER ,239
+46,↑1,HAN Feier / QIN Yuxuan, CHN ,235
+47,↑1,Yadira SILVA / Arantxa COSSIO ACEVES, MEX ,235
+48,↑1,Prithika PAVADE / Charlotte LUTZ, FRA ,205
+49,↑1,Melanie DIAZ / Adriana DIAZ, PUR ,205
+50,↑1,Xiaona SHAN / Nina MITTELHAM, GER ,184
+51,↑1,Zodwa MAPHANGA / Danisha PATEL, RSA ,184
+52,↑2,Maram ZOGHLAMI / Narimene-Hind SIDDEKI, TUN / ALG ,175
+53,↑2,Jiayi ZHOU / Abbey WEBB, NZL ,175
+54,↑2,Zhehan Joanna YANG / Cecilia HUANG, NZL ,175
+55,↑2,Idalys LOVET / Daniela FONSECA CARRAZANA, CUB ,175
+56,↑2,Katia KESSACI / Lynda LOGHRAIBI, ALG ,175
+57,↑2,LEE Ho Ching / NG Wing Lam, HKG ,175
+58,↑2,LEE Ho Ching / CHEN Szu-Yu, HKG / TPE ,175
+59,↑2,Lily ZHANG / Amy WANG, USA ,175
+60,↑2,Xiaona SHAN / Miyu NAGASAKI, GER / JPN ,175
+61,↑2,Paulina VEGA / Daniela ORTEGA, CHI ,165
+62,↑2,HE Zhuojia / WANG Xiaotong, CHN ,155
+63,↓20,ZANG Xiaotong / WU Yangchen, CHN ,155
+64,↑1,WONG Xin Ru / ZHOU Jingyi, SGP ,152
+65,↑1,LIU Hsing-Yin / HUANG Yu-Wen, TPE ,150
+66,↑1,QI Fei / WU Yangchen, CHN ,150
+67,↑1,Suhana SAINI / Yashaswini GHORPADE, IND ,150
+68,↑2,Miu HIRANO / Miyu NAGASAKI, JPN ,144
+69,↑2,Barbora BALAZOVA / Camille LUTZ, SVK / FRA ,142
+70,↑2,ZANG Xiaotong / YANG Yiyun, CHN ,142
+71,↑2,Sabine WINTER / Natalia BAJOR, GER / POL ,142
+72,↑3,YOON Hyobin / KIM Hayeong, KOR ,142
+73,↑1,Elizabeta SAMARA / Bernadette SZOCS, ROU ,140
+74,↑2,Minami ANDO / Miwa HARIMOTO, JPN ,137
+75,↑4,Anna WEGRZYN / Katarzyna WEGRZYN, POL ,134
+76,,CHEN Yi / QI Fei, CHN ,133
+77,↑13,Stephanie LOEUILLETTE / Oceane GUISNEL, FRA ,131
+78,↑2,Sibel ALTINKAYA / Simay KULAKCEKEN, TUR ,129
+79,↑2,HUANG Yi-Hua / HUANG Yu-Jie, TPE ,127
+80,↑2,Ozge YILMAZ / Ece HARAC, TUR ,126
+81,↑2,KIM Nayeong / JOO Cheonhui, KOR ,125
+82,↑2,HE Zhuojia / LIU Weishan, CHN ,125
+83,↑2,SHI Xunyao / YANG Huijing, CHN ,125
+84,↑2,Tatiana KUKULKOVA / Ema LABOSOVA, SVK ,121
+85,↑2,YANG Ha Eun / LEE Eunhye, KOR ,117
+86,↓17,WONG Xin Ru / GOI Rui Xuan, SGP ,116
+87,↑29,Adina DIACONU / Andreea DRAGOMAN, ROU ,115
+88,,KIM Seongjin / LEE Daeun, KOR ,115
+89,,WANG Yiduo / CHU Hanwen, CHN ,110
+90,↑1,LEE Eunhye / KIM Hayeong, KOR ,105
+91,↑1,CHEN Meng / WANG Manyu, CHN ,105
+92,↑2,Tin-Tin HO / Karoline MISCHEK, ENG / AUT ,103
+93,,Debora VIVARELLI / Giorgia PICCOLIN, ITA ,103
+94,↑1,Mabelyn ENRIQUEZ / Lucia CORDERO, GUA ,100
+95,↑1,Anna HURSEY / Sophie EARLEY, WAL / ENG ,100
+96,↓18,Amelie SOLJA / Vivien SCHOLZ, AUT / LUX ,98
+97,,Ana TOFANT / Katarina STRAZAR, SLO ,94
+98,↑7,Izabela LUPULESKU / Sabina SURJAN, SRB ,94
 99,↓1,Fadwa GARCI / Abir HAJ SALAH, TUN ,92
-100,↓1,Nandeshwaree JALIM / Oumehani HOSENALLY, MRI ,90
-101,↓1,Julie WANEGUI / Anais PAUL, NCL ,90
-102,↓1,Carolyn LI / Grace Rosi YEE, FIJ ,90
-103,↓1,Essevoh Mireille LEBA / Mubanga KUNDA, CIV / ZAM ,90
-104,↓1,Heimoe WONG / Kelley TEHAHETUA, PYF ,90
-105,↓1,HUANG Yu-Wen / LI Yu-Jhun, TPE ,90
-106,↑251,Izabela LUPULESKU / Sabina SURJAN, SRB ,90
-107,↓2,Liopa SANTHY / Stephanie QWEA, VAN ,90
-108,↑1,GUO Yuhan / LI Yake, CHN ,87
-109,↓3,KIM Hayeong / SHIN Yubin, KOR ,85
-110,↓3,Dina MESHREF / Sibel ALTINKAYA, EGY / TUR ,85
-111,↓3,Reeth TENNISON / Sutirtha MUKHERJEE, IND ,85
-112,↓2,GUO Yuhan / LIU Weishan, CHN ,85
-113,↓2,WANG Xiaotong / LI Yake, CHN ,85
-114,↓2,HUANG Yu-Jie / TSAI Yun-En, TPE ,80
-115,↓2,Monica SERRANO / Clio BARCENAS, MEX ,75
-116,↓2,Anastassiya LAVROVA / Zauresh AKASHEVA, KAZ ,75
+100,↑4,HUANG Yu-Wen / LI Yu-Jhun, TPE ,92
+101,↓2,Nandeshwaree JALIM / Oumehani HOSENALLY, MRI ,90
+102,↓2,Julie WANEGUI / Anais PAUL, NCL ,90
+103,↓2,Carolyn LI / Grace Rosi YEE, FIJ ,90
+104,↓2,Essevoh Mireille LEBA / Mubanga KUNDA, CIV / ZAM ,90
+105,↓2,Heimoe WONG / Kelley TEHAHETUA, PYF ,90
+106,,Liopa SANTHY / Stephanie QWEA, VAN ,90
+107,,GUO Yuhan / LI Yake, CHN ,87
+108,,KIM Hayeong / SHIN Yubin, KOR ,85
+109,,Dina MESHREF / Sibel ALTINKAYA, EGY / TUR ,85
+110,,Reeth TENNISON / Sutirtha MUKHERJEE, IND ,85
+111,,GUO Yuhan / LIU Weishan, CHN ,85
+112,,WANG Xiaotong / LI Yake, CHN ,85
+113,↑17,Katerina TOMANOVSKA / Zdena BLASKOVA, CZE ,85
+114,↓37,Audrey ZARIF / Leili MOSTAFAVI, FRA ,82
+115,↓2,HUANG Yu-Jie / TSAI Yun-En, TPE ,80
+116,↓2,Monica SERRANO / Clio BARCENAS, MEX ,75
 117,↓2,ZHANG Xiangyu / FAN Shuhan, CHN ,74
-118,↓2,YOON Hyobin / LEE Zion, KOR ,70
-119,↓2,Adina DIACONU / Andreea DRAGOMAN, ROU ,70
-120,↓2,CHEN Szu-Yu / HUANG Yu-Wen, TPE ,70
-121,↓2,Candela MOLERO / Camila ARGUELLES, ARG ,70
-122,↓2,Rachel MORET / Tatiana KUKULKOVA, SUI / SVK ,70
-123,↓2,Sewar ABUYAMAN / Taimmaa ABO-YAMAN, JOR ,70
-124,↓2,Barbora BALAZOVA / Natalia BAJOR, SVK / POL ,70
-125,↓2,Roxy GONZALEZ / Camila OBANDO, VEN ,70
-126,↓2,HE Zhuojia / KUAI Man, CHN ,70
-127,↓2,WONG Xin Ru / ZENG Jian, SGP ,70
-128,↓2,Gaia MONFARDINI / Nicole ARLIA, ITA ,70
-129,↓2,Franziska SCHREINER / Sophia KLEE, GER ,70
-130,↓2,Debora VIVARELLI / Nicole ARLIA, ITA ,63
-131,↑35,Katerina TOMANOVSKA / Zdena BLASKOVA, CZE ,62
-132,↓3,Charlotte CAREY / Tin-Tin HO, WAL / ENG ,61
-133,↓3,LI Ching Wan / ZHU Chengzhu, HKG ,61
-134,↓3,LEE Daeun / PARK Gahyeon, KOR ,60
-135,↓3,CHOI Nahyun / LEE Seungeun, KOR ,60
-136,↓3,KONG Tsz Lam / WONG Hoi Tung, HKG ,60
-137,↓3,Daniely RIOS / Melanie DIAZ, PUR ,55
-138,↓3,Jiaqi LIN / DENG Zhen, USA ,55
-139,↓3,Lucia CORDERO / Hidalynn ZAPATA, GUA ,55
-140,↓3,Judith MORALES / Zhiying ZENG, CHI ,55
-141,↓3,Latifa NALAVWE / Janet MWELWA, ZAM ,55
-142,↓3,Mo ZHANG / Ivy LIAO, CAN ,55
-143,↓3,Filippa BERGAND / Rebecca MUSKANTOR, SWE ,51
-144,↓3,NG Wing Lam / LEE Hoi Man Karen, HKG ,51
-145,↓3,KUAI Man / ZONG Geman, CHN ,49
-146,↓3,Natalia PARTYKA / Natalia BAJOR, POL ,47
-147,↓3,Franziska SCHREINER / Annett KAUFMANN, GER ,47
-148,↓3,HUANG Yi-Hua / LIU Hsing-Yin, TPE ,45
-149,↓3,Dragana VIGNJEVIC / Izabela LUPULESKU, SRB ,45
-150,↓3,Nikoleta PUCHOVANOVA / Ozge YILMAZ, SVK / TUR ,45
-151,↓3,Lailaa EDWARDS / Dina BERRADA, RSA / MAR ,45
-152,↓3,Connie SIFI / Keala TEHAHETUA, SOL / PYF ,45
-153,↓3,Houda Nourhane TAGUERCIFI / Cheima MERZOUG, ALG ,45
-154,↓3,Eseta VI / Melekaufusi Maryanne Cocker FUNGAVAI, TGA ,45
-155,↓3,Loubna DJEDJIK / Malissa NASRI, ALG ,45
-156,↓3,Hadjer TAHMI / Amina KESSACI, ALG ,45
-157,↓3,Kailane SOUSA / Eugenia Esperanca De Andrade SIMOES, ANG ,45
-158,↓3,Sandhana DESSCANN / Ruqayyah KINOO, MRI ,45
-159,↓3,Jerusa BORGES / Isabel ALBINO, ANG ,45
-160,↓3,Touea TITANA / Tupou FIFITA, FIJ / TGA ,45
-161,↓3,Camila OBANDO / Mariangel DIAZ, VEN ,45
-162,↓3,Angie ARAYA / Lucia ZAVALETA, CRC ,45
-163,,CHEN Yi / HAN Feier, CHN ,45
-164,,Rachel MORET / Charlotte LUTZ, SUI / FRA ,45
-165,↓5,Tracy MAWA / Tammi AGARI, VAN / PNG ,45
-166,↓5,Minhyung JEE / Yangzi LIU, AUS ,44
-167,↓5,YEH Yi-Tian / HUANG Ching-Chia, TPE ,40
-168,↓5,KIM Seongjin / YOO Yerin, KOR ,40
-169,↓5,Anna BRZYSKA / Zuzanna WIELGOS, POL ,40
-170,↓5,Charlotte CAREY / Anna HURSEY, WAL ,37
-171,↓4,Danni-Elle TOWNSEND / Sue Bin OH, AUS ,35
-172,↓4,Luca KUMAHARA / Beatriz Kaori CORREIA KANASHIRO, BRA ,35
-173,↓4,Mia GRIESEL / Bianca MEI ROSU, GER / ROU ,35
-174,↓4,Solomiya BRATEYKO / Vivien SCHOLZ, UKR / LUX ,33
-175,↓4,Luca KUMAHARA / Giulia TAKAHASHI, BRA ,33
-176,↓4,Sofia-Xuan ZHANG / Franziska SCHREINER, ESP / GER ,32
-177,↓4,Leili MOSTAFAVI / Yangzi LIU, FRA / AUS ,30
-178,↓4,Jiangshan GUO / Lichen CHEN, USA ,30
-179,↓4,Debora VIVARELLI / Margo DEGRAEF, ITA / BEL ,30
-180,↓4,Nadeen EL-DAWLATLY / Farida BADAWY, EGY ,30
-181,↓4,Annett KAUFMANN / Mia GRIESEL, GER ,30
-182,↓4,LI Yuqi / LENG Yutong, CHN ,29
-183,↓4,Hana ARAPOVIC / Elena ZAHARIA, CRO / ROU ,27
-184,↓4,Poymantee BAISYA / Anannya BASAK, IND ,25
-185,↓4,Brianna BURGOS / Kristal MELENDEZ, PUR ,25
-186,↓4,Sofia PEREZ / Lucia ZAVALETA, CRC ,25
-187,↓4,Yasiris ORTIZ / Shary MUNOZ, DOM ,25
-188,↓4,Bruna ALEXANDRE / Victoria STRASSBURGER, BRA ,25
-189,↓4,Pauline CHASSELIN / Isa COK, FRA ,25
-190,↓4,Rozalina KHADJIEVA / Markhabo MAGDIEVA, UZB ,25
-191,↓4,YOON Hyobin / KIM Seoyun, KOR ,24
-192,↓4,Marie MIGOT / Oceane GUISNEL, FRA ,24
-193,↓4,Musfiquh KALAM / Lailaa EDWARDS, RSA ,24
-194,↓4,Eva BRITO / Yasiris ORTIZ, DOM ,22
-195,↓4,ZHANG Wanling / GOI Rui Xuan, SGP ,22
-196,↓4,Reeth TENNISON / Sreeja AKULA, IND ,20
-197,↓4,Isabel DUFFOO / Maria MALDONADO, PER ,20
-198,↓4,QIN Yuxuan / ZONG Geman, CHN ,20
-199,↓4,Offiong EDEM / Fatimo BELLO, NGR ,20
-200,↓4,Manika BATRA / Diya Parag CHITALE, IND ,20
-201,↓4,Jiayi ZHOU / Maia Christine CAVANAGH, NZL ,20
-202,↓4,Lucie MOBAREK / Clea DE STOPPELEIRE, FRA ,20
-203,↓4,Chelsea EDGHILL / Natalie CUMMINGS, GUY ,20
-204,↓4,Nathaly PAREDES / Angelica ARELLANO, ECU ,20
-205,↓4,Cory TELLEZ / Manuela ECHEVERRY, COL ,20
-206,↓4,Giulia TAKAHASHI / Luciana MITROFAN, BRA / ROU ,20
-207,↓4,Anastasiya DYMYTRENKO / Veronika MATIUNINA, UKR ,20
-208,↓4,CHOI Yeseo / PARK Gahyeon, KOR ,20
-209,↓4,Mia GRIESEL / Lea LACHENMAYER, GER ,20
-210,↓4,Cory TELLEZ / Juliana LOZADA, COL ,20
-211,↓4,Hana ARAPOVIC / Annett KAUFMANN, CRO / GER ,20
-212,↓4,GOI Rui Xuan / SER Lin Qian, SGP ,20
-213,↓4,HAN Feier / ZONG Geman, CHN ,19
-214,↓4,HUANG Hsin / HUANG Yu-Chiao, TPE ,19
-215,↓4,Chantal MANTZ / Franziska SCHREINER, GER ,19
-216,↓4,Leonie HARTBRICH / Helga DARI, HUN ,19
-217,↓4,Nicole ARLIA / Ioana SINGEORZAN, ITA / ROU ,17
-218,↓4,Ines MATOS / Matilde PINTO, POR ,17
-219,↓4,Sally MOYLAND / Sarah JALLI, USA ,15
-220,↓4,Giulia TAKAHASHI / CHEN Chi-Shiuan, BRA / TPE ,15
-221,↓4,Eva BRITO / Esmerlyn CASTRO, DOM ,15
-222,↓4,Mabelyn ENRIQUEZ / Jenny CUX, GUA ,15
-223,↓4,Lucia FERNANDEZ / Marbella ACEVES, MEX ,15
-224,↓4,Zauresh AKASHEVA / Sarvinoz MIRKADIROVA, KAZ ,14
-225,↓4,Offiong EDEM / Cecilia AKPAN, NGR ,14
-226,↓4,YANG Ha Eun / LEE Eunhye, KOR ,13
-227,↓4,Avisha KARMAKAR / Prachi MAZUMDER, IND ,12
-228,↓4,Wanwisa AUEAWIRIYAYOTHIN / Wirakarn TAYAPITAK, THA ,12
-229,↓4,Andrea TODOROVIC / Izabela LUPULESKU, SRB ,12
-230,↓4,ZHOU Jingyi / SER Lin Qian, SGP ,12
-231,↓4,Camila ARGUELLES / Ana TOFANT, ARG / SLO ,11
-232,↓4,Tin-Tin HO / Maria TSAPTSINOS, ENG ,10
-233,↓4,Emily QUAN / Yishiuan LIN, USA ,10
-234,↓4,Hana ARAPOVIC / Dora COSIC , CRO ,10
-235,↓4,Chloe Anna THOMAS WU ZHANG / Lara WHITTON, WAL ,10
-236,↓4,Mo ZHANG / Ching Nam FU, CAN ,10
-237,↓4,Emily BOLTON / Charlotte BARDSLEY, ENG ,10
-238,↓4,Unica VELOX / Leah CUMBERBATCH, VIN ,10
-239,↓4,Adriana ILLASOVA / Yangzi LIU, SVK / AUS ,10
-240,↓4,Anna BRZYSKA / Ilona SZTWIERTNIA, POL ,10
-241,↓4,CHENG Pusyuan / YEH Yi-Tian, TPE ,10
-242,↓4,Hasali Sanaya BUDDHADASA / Victoria ZHANG, AUS ,10
-243,↓4,Naomi PRANJKOVIC / Brianna BURGOS, GER / PUR ,10
-244,↓4,Sarvinoz MIRKADIROVA / Angelina ROMANOVSKAYA, KAZ ,10
-245,↓4,Kendra MOLNAR / Emma SZOSZNYAK, HUN ,10
-246,↓4,Farida BADAWY / Malamatenia PAPADIMITRIOU, EGY / GRE ,10
-247,↓4,Natalia BOGDANOWICZ / Weronika BOBEK, POL ,10
-248,↓4,Maria HERRERA / Andrea TERRAZAS, BOL ,10
-249,↓4,Lucero OVELAR / Leyla GOMEZ, PAR ,10
-250,↓4,Farida BADAWY / Patricia SANTOS, EGY / POR ,10
-251,↓4,Ainhoa CRISTOBAL / Ioana SINGEORZAN, ESP / ROU ,10
-252,↓4,Arantxa COSSIO ACEVES / Laura WATANABE, MEX / BRA ,10
-253,↓4,Anastassiya LAVROVA / Angelina ROMANOVSKAYA, KAZ ,10
-254,↓4,ZHANG Wanling / ZHOU Jingyi, SGP ,10
-255,↓4,Hana GODA / Malamatenia PAPADIMITRIOU, EGY / GRE ,10
-256,↓4,Lilou MASSART / Ilona SZTWIERTNIA, BEL / POL ,10
-257,↓4,WONG Xin Ru / SER Lin Qian, SGP ,10
-258,↓4,LYNE Karen / TEE Ai Xin, MAS ,10
-259,↓4,Isa COK / Agathe AVEZOU, FRA ,10
-260,↓4,YOO Yerin / PARK Gahyeon, KOR ,10
-261,↓4,Nicole ARLIA / Natalia BOGDANOWICZ, ITA / POL ,10
-262,↓4,Olufunke OSHONAIKE / Fatimo BELLO, NGR ,10
-263,↓4,Markhabo MAGDIEVA / Arujan KAMALOVA , UZB ,10
-264,↓4,Audrey ZARIF / Charlotte LUTZ, FRA ,10
-265,↓4,Maria MALDONADO / Mariagrazia LA TORRE SANCHEZ, PER ,10
-266,↓4,Emme ARIAS / Gabriela SUAREZ, ESA ,10
-267,↓4,Krystle HARVEY / Anthonette RILEY, BAR ,10
-268,↓4,Rheann CHUNG / Imani Astra Hadyia EDWARDS-TAYLOR, TTO ,10
-269,↓4,LAI Chloe / LOY Ming Ying, SGP ,10
-270,↓4,ZHANG Wanling / CHENG Janissa, SGP ,10
-271,↓4,Valentina RONCALLO / Arianna BARANI, ITA ,9
-272,↓4,LEE Zion / JOO Cheonhui, KOR ,7
-273,↓4,Ana TOFANT / Sara TOKIC, SLO ,6
-274,↓4,Tessy GONDERINGER / Sarah DE NUTTE, LUX ,6
-275,↓4,Stephanie LOEUILLETTE / Pauline CHASSELIN, FRA ,6
-276,↓4,Giulia TAKAHASHI / Laura WATANABE, BRA ,5
-277,↓4,Lizdainet RODRIGUEZ / Estela CRESPO , CUB ,5
-278,↓4,Ximena FIGUEROA MUNOZ / Barbara SERNA, MEX ,5
-279,↓4,Krystle HARVEY / Angela REID, BAR ,5
-280,↓4,Linda ZADEROVA / Hana ARAPOVIC, CZE / CRO ,5
-281,↓4,Krittwika ROY / Swastika GHOSH, IND ,5
-282,↓4,Grace Rosi YEE / Touea TITANA, FIJ ,5
-283,↓4,Ana STOJANOVSKA / Katarina Laura MIHAILOV, MKD ,5
-284,↓4,Malamatenia PAPADIMITRIOU / Sophie EARLEY, GRE / ENG ,5
-285,↓4,Marla VIDAKOVIC / Agathe AVEZOU, CRO / FRA ,5
-286,↓4,Hannah TERAWAUEA / Seng YEE, FIJ ,5
-287,↓4,Tammi AGARI / Keala TEHAHETUA, PNG / PYF ,5
-288,↓4,Ema LABOSOVA / Zdena BLASKOVA, SVK / CZE ,5
-289,↓4,Elena ZAHARIA / Ioana SINGEORZAN, ROU ,5
-290,↓4,Suzana MILOSEVIC / Lichen CHEN, MNE / USA ,5
-291,↓4,Pauline CHASSELIN / Leili MOSTAFAVI, FRA ,5
-292,↓4,Sibel ALTINKAYA / Charlotte CAREY, TUR / WAL ,5
-293,↓4,Lea LACHENMAYER / Marla VIDAKOVIC, GER / CRO ,5
-294,↓4,Silvia COLL / Eugenia SASTRE, ESP ,5
-295,↓4,SER Lin Qian / Hana ARAPOVIC, SGP / CRO ,5
-296,↓4,Sofia-Xuan ZHANG / Jinnipa SAWETTABUT, ESP / THA ,5
-297,↓4,Reeth TENNISON / Tatiana KUKULKOVA, IND / SVK ,5
-298,↓4,Dora MADARASZ / Leila IMRE, HUN ,5
-299,↓4,Amelie SOLJA / Sibel ALTINKAYA, AUT / TUR ,5
-300,↓4,Yousra HELMY / Natalia BAJOR, EGY / POL ,5
-301,↓4,Anna HURSEY / Sophia KLEE, WAL / GER ,5
-302,↓4,Thuraia THOMAS / Jasmine BILLINGY, GUY ,5
-303,↓4,Keren CONSTANZA / Cecilia ORANTES, ESA ,5
-304,↓4,Sofia OSORIO / Mariam SOLIS, PAN ,5
-305,↓4,Imani Astra Hadyia EDWARDS-TAYLOR / Chloe FRASER, TTO ,5
-306,↓4,Anthonette RILEY / Kenady KING, BAR ,5
-307,↓4,Ana CODINA / Camila KAIZOJI, ARG ,5
-308,↓4,Mariangel DIAZ / Nathacha Dennys MATA APONTE, VEN ,5
-309,↓4,Luciana Andrea GRANADOS CHANG / Natzumi Valentina AQUIJE CONDEZO, PER ,5
-310,↓4,Lucero OVELAR / Cielo MUTTI, PAR ,5
-311,↓4,Fatimo BELLO / Rofiat JIMOH, NGR ,5
-312,↓4,Sukurat AIYELBEGAN / Abosede Esther AKINSETE, NGR ,5
-313,↓4,Cynthia KWABI / Cecilia FREMA, GHA ,5
-314,↓4,Mateja JEGER / Lea RAKOVAC, CRO ,5
-315,↓4,Leila IMRE / Leonie HARTBRICH, HUN ,5
-316,↓4,LAM Yee Lok / NG Wing Lam, HKG ,5
-317,↓4,Julie VAN HAUWAERT / Sara DEVOS, BEL ,5
-318,↓4,Ayhika MUKHERJEE / Prapti SEN, IND ,4
-319,↓4,Christina KALLBERG / Filippa BERGAND, SWE ,4
-320,↓4,Anel BAKHYT / Angelina ROMANOVSKAYA, KAZ ,4
-321,↓4,Karolina MYNAROVA / Gabriela STEPANOVA, CZE ,4
-322,↓4,Yuan WAN / Jieni SHAO, GER / POR ,4
-323,↓4,Adriana DIAZ / Bruna TAKAHASHI, PUR / BRA ,4
-324,↓4,Matilda HANSSON / Marina DONNER, SWE / FIN ,4
-325,↓4,Pauline CHASSELIN / Yuan WAN, FRA / GER ,4
-326,↓4,CHEN Yi / QIN Yuxuan, CHN ,4
-327,↓4,Vivien SCHOLZ / Aray ASHKEYEVA, LUX / KAZ ,4
-328,↓4,GOI Rui Xuan / ZENG Jian, SGP ,4
-329,↓4,HUANG Yu-Jie / YEH Yi-Tian, TPE ,4
-330,↓4,Simeen MOOKREY / Jesse NOMDO, RSA ,4
-331,↓4,Batool KHADER / Zeina SADAQA, JOR ,4
-332,↓4,Natalia BAJOR / Yuan WAN, POL / GER ,4
-333,↓4,Esther ORIBAMISE / Ajoke OJOMU, NGR ,4
-334,↓4,FAN Siqi / HE Zhuojia, CHN ,4
-335,↓4,Audrey ZARIF / Camille LUTZ, FRA ,4
-336,↓4,Lily ZHANG / Rachel SUNG, USA ,4
-337,↓4,Charlotte CAREY / Sofia-Xuan ZHANG, WAL / ESP ,4
-338,↓4,Marwa ALHODABY / Mariam ALHODABY, EGY ,4
-339,↓4,Andrea TODOROVIC / Dragana VIGNJEVIC, SRB ,4
-340,↓4,Mateja JEGER / Hana ARAPOVIC, CRO ,4
-341,↓4,Tamolwan KHETKHUAN / Jinnipa SAWETTABUT, THA ,3
-342,↓4,Anjali ROHILLA / Gayatri CHOUDHARY, IND ,3
-343,↓4,Anusha KUTUMBALE / Nithya MANI, IND ,3
-344,↓4,Reeth TENNISON / Swastika GHOSH, IND ,3
-345,↓4,LAM Yee Lok / ZHANG Wenjing, HKG ,3
-346,↓4,YOON Hyobin / JOO Cheonhui, KOR ,3
-347,↓4,LI Ching Wan / LAM Yee Lok, HKG ,3
-348,↓4,Tatiana KUKULKOVA / Charlotte LUTZ, SVK / FRA ,3
-349,↓4,Rachel MORET / Bernadett BALINT, SUI / HUN ,3
-350,↓4,Lara OPEKA / Enya MOLTARA, SLO ,3
-351,↓4,Nathalie MARCHETTI / Margo DEGRAEF, BEL ,3
-352,↓4,Neda SHAHSAVARI / Mehrsa MOSLEMI, IRI ,3
-353,↓4,Izabela LUPULESKU / Hana ARAPOVIC, SRB / CRO ,3
-354,↓4,Ana TOFANT / Vivien SCHOLZ, SLO / LUX ,2
-355,↓4,CHEN Yi / KUAI Man, CHN ,2
-356,↓4,Rachel MORET / Natalia BAJOR, SUI / POL ,2
-357,↓4,Aiya ALIMBAYEVA / Alexandra SMIRNOVA, KAZ ,2
-358,↓4,Fadwa GARCI / Maram ZOGHLAMI, TUN ,2
-359,↓4,Rachel MORET / Yangzi LIU, SUI / AUS ,2
-360,↓4,Sidelya MUTLU / Tsvetelina GEORGIEVA, BUL ,2
-361,↓4,Maria YOVKOVA / Kalina HRISTOVA, BUL ,2
-362,↓4,Gulchekhra KHUSSEINOVA / Anastassiya LAVROVA, KAZ ,2
-363,↓4,Lea PAULIN / Sara TOKIC, SLO ,2
-364,↓4,Suthasini SAWETTABUT / Jinnipa SAWETTABUT, THA ,2
-365,↓4,Ruqayyah KINOO / Oumehani HOSENALLY, MRI ,2
-366,↓4,Filippa BERGAND / Isa COK, SWE / FRA ,2
-367,↓4,LI Ching Wan / Sofia-Xuan ZHANG, HKG / ESP ,2
-368,↓4,Danni-Elle TOWNSEND / Hasali Sanaya BUDDHADASA , AUS ,2
-369,↓4,Maram ZOGHLAMI / Molka RIAHI, TUN ,2
-370,↓4,Farida BADAWY / Roa ZAKI, EGY ,2
-371,↓4,Franziska SCHREINER / Vivien SCHOLZ, GER / LUX ,2
-372,↓4,Sofia-Xuan ZHANG / Tin-Tin HO, ESP / ENG ,2
-373,↓4,Arisha MADAREE / Jade SASMAN, RSA ,2
-374,↓4,Boipelo MASHWABI / Boingotlo MOTHUPI, RSA ,2
-375,↓4,Margo DEGRAEF / Tatiana KUKULKOVA, BEL / SVK ,2
-376,↓4,Orawan PARANANG / ZHANG Wanling, THA / SGP ,2
-377,↓4,Irina CIOBANU / Andreea DRAGOMAN, ROU ,2
-378,↓4,Tania PLAIAN / Ioana SINGEORZAN, ROU ,2
-379,↓4,Yousra HELMY / Marina DONNER, EGY / FIN ,2
-380,↓4,Franziska SCHREINER / Diya Parag CHITALE, GER / IND ,2
-381,↓4,Gaia MONFARDINI / Ana TOFANT, ITA / SLO ,2
-382,↓4,Rinad EL-HASANI / Mira ALHAJ HASHEM, JOR ,2
-383,↓4,Hilda AGBOTTAH / Agnes COLEMAN, GHA ,2
-384,↓4,Malissa NASRI / Hadjer TAHMI, ALG ,2
-385,↓4,LAM Yee Lok / LEE Hoi Man Karen, HKG ,2
-386,↓4,Aishath NAZIM / Fathimath ALI, MDV ,2
-387,↓4,Lea RAKOVAC / Hana ARAPOVIC, CRO ,2
-388,↓4,Sara TOKIC / Tjasa NOVAK, SLO ,2
-389,↓4,Irina CIOBANU / Tania PLAIAN, ROU ,2
-390,↓4,Ana CODINA / Camila ARGUELLES, ARG ,2
-391,↓216,LIU Hsing-Yin / CHENG Hsien-Tzu, TPE ,2
-392,,HUANG Hsin / CHEN Ying-Chen, TPE ,2
-393,,Veronika POLAKOVA / Hanka KODETOVA, CZE ,2
-394,,Solomiya BRATEYKO / Anastasiya DYMYTRENKO, UKR ,2
-395,↓8,Anna KLEMPEREROVA / Jana VASENDOVA, CZE ,2
-396,↓8,Karoline MISCHEK / ZHANG Wanling, AUT / SGP ,1
-397,↓8,Marketa SEVCIKOVA / Klara HRABICOVA, CZE ,1
-398,↓8,Melika KARAMI / Parinaz HAJILOU, IRI ,1
-399,↓8,Magdalena SIKORSKA / Tatiana KUKULKOVA, POL / SVK ,1
-400,↓8,Anastassiya LAVROVA / Aiya ALIMBAYEVA, KAZ ,1
-401,↓8,Thi Hong Loan LE / Arianna BARANI, ITA ,1
-402,↓8,Katerina TOMANOVSKA / Natalia BAJOR, CZE / POL ,1
-403,↓8,Charlotte CAREY / Gaia MONFARDINI, WAL / ITA ,1
-404,↓8,Sofia-Xuan ZHANG / Yangzi LIU, ESP / AUS ,1
-405,↓8,CHANG Li Sian Alice / LI YING Im, MAS ,1
+118,↓1,Candela MOLERO / Camila ARGUELLES, ARG ,70
+119,↓1,Rachel MORET / Tatiana KUKULKOVA, SUI / SVK ,70
+120,↓1,Sewar ABUYAMAN / Taimmaa ABO-YAMAN, JOR ,70
+121,↓1,Barbora BALAZOVA / Natalia BAJOR, SVK / POL ,70
+122,↓1,Roxy GONZALEZ / Camila OBANDO, VEN ,70
+123,↓1,HE Zhuojia / KUAI Man, CHN ,70
+124,↓1,WONG Xin Ru / ZENG Jian, SGP ,70
+125,↓1,Miu HIRANO / Miwa HARIMOTO, JPN ,70
+126,,Franziska SCHREINER / Sophia KLEE, GER ,70
+127,↑1,Debora VIVARELLI / Nicole ARLIA, ITA ,63
+128,↑1,Judith MORALES / Zhiying ZENG, CHI ,62
+129,↑2,Charlotte CAREY / Tin-Tin HO, WAL / ENG ,61
+130,↑2,LI Ching Wan / ZHU Chengzhu, HKG ,61
+131,↑2,LEE Daeun / PARK Gahyeon, KOR ,60
+132,↑2,CHOI Nahyun / LEE Seungeun, KOR ,60
+133,↑2,KONG Tsz Lam / WONG Hoi Tung, HKG ,60
+134,↑2,Daniely RIOS / Melanie DIAZ, PUR ,55
+135,↑2,Jiaqi LIN / DENG Zhen, USA ,55
+136,↑2,Lucia CORDERO / Hidalynn ZAPATA, GUA ,55
+137,↑2,Latifa NALAVWE / Janet MWELWA, ZAM ,55
+138,↑2,Mo ZHANG / Ivy LIAO, CAN ,55
+139,,KIM Byeolnim / KIM Nayeong, KOR ,53
+140,↑2,HUANG Yi-Hua / LIU Hsing-Yin, TPE ,51
+141,,NG Wing Lam / LEE Hoi Man Karen, HKG ,51
+142,↑1,KUAI Man / ZONG Geman, CHN ,49
+143,↑1,Lailaa EDWARDS / Dina BERRADA, RSA / MAR ,45
+144,↑1,Connie SIFI / Keala TEHAHETUA, SOL / PYF ,45
+145,↑1,Houda Nourhane TAGUERCIFI / Cheima MERZOUG, ALG ,45
+146,↑1,Eseta VI / Melekaufusi Maryanne Cocker FUNGAVAI, TGA ,45
+147,↑1,Loubna DJEDJIK / Malissa NASRI, ALG ,45
+148,↑1,Hadjer TAHMI / Amina KESSACI, ALG ,45
+149,↑1,Kailane SOUSA / Eugenia Esperanca De Andrade SIMOES, ANG ,45
+150,↑1,Sandhana DESSCANN / Ruqayyah KINOO, MRI ,45
+151,↑1,Jerusa BORGES / Isabel ALBINO, ANG ,45
+152,↑1,Touea TITANA / Tupou FIFITA, FIJ / TGA ,45
+153,↑1,Camila OBANDO / Mariangel DIAZ, VEN ,45
+154,↑1,Angie ARAYA / Lucia ZAVALETA, CRC ,45
+155,↑1,CHEN Yi / HAN Feier, CHN ,45
+156,↑1,Rachel MORET / Charlotte LUTZ, SUI / FRA ,45
+157,↑1,Tracy MAWA / Tammi AGARI, VAN / PNG ,45
+158,↑1,Minhyung JEE / Yangzi LIU, AUS ,44
+159,↑4,Anna BRZYSKA / Zuzanna WIELGOS, POL ,44
+160,,Tessy GONDERINGER / Sarah DE NUTTE, LUX ,44
+161,,YEH Yi-Tian / HUANG Ching-Chia, TPE ,40
+162,,KIM Seongjin / YOO Yerin, KOR ,40
+163,↑1,Danni-Elle TOWNSEND / Sue Bin OH, AUS ,35
+164,↑1,Mia GRIESEL / Bianca MEI ROSU, GER / ROU ,35
+165,↑16,Pauline CHASSELIN / Isa COK, FRA ,35
+166,,Solomiya BRATEYKO / Vivien SCHOLZ, UKR / LUX ,33
+167,,Rachel MORET / Anna HURSEY, SUI / WAL ,33
+168,↓41,Anastassiya LAVROVA / Zauresh AKASHEVA, KAZ ,33
+169,↓2,Sofia-Xuan ZHANG / Franziska SCHREINER, ESP / GER ,32
+170,↓45,Gaia MONFARDINI / Nicole ARLIA, ITA ,32
+171,↓118,YOON Hyobin / KIM Nayeong, KOR ,30
+172,↓4,Leili MOSTAFAVI / Yangzi LIU, FRA / AUS ,30
+173,↓4,Jiangshan GUO / Lichen CHEN, USA ,30
+174,↓4,Debora VIVARELLI / Margo DEGRAEF, ITA / BEL ,30
+175,↓4,Nadeen EL-DAWLATLY / Farida BADAWY, EGY ,30
+176,↓4,Annett KAUFMANN / Mia GRIESEL, GER ,30
+177,↓3,Bruna ALEXANDRE / Victoria STRASSBURGER, BRA ,27
+178,↓5,LI Yuqi / LENG Yutong, CHN ,27
+179,↓4,Hana ARAPOVIC / Elena ZAHARIA, CRO / ROU ,27
+180,↓4,Leonie HARTBRICH / Helga DARI, HUN ,26
+181,↓4,Poymantee BAISYA / Anannya BASAK, IND ,25
+182,↓4,Brianna BURGOS / Kristal MELENDEZ, PUR ,25
+183,↓4,Sofia PEREZ / Lucia ZAVALETA, CRC ,25
+184,↓4,Yasiris ORTIZ / Shary MUNOZ, DOM ,25
+185,↓2,Isabel DUFFOO / Maria MALDONADO, PER ,24
+186,↓2,YOON Hyobin / KIM Seoyun, KOR ,24
+187,↓2,Debora VIVARELLI / Gaia MONFARDINI, ITA ,24
+188,↓2,Sofia-Xuan ZHANG / Audrey ZARIF, ESP / FRA ,24
+189,↓2,Tatiana KUKULKOVA / Anna HURSEY, SVK / WAL ,23
+190,↓2,Eva BRITO / Yasiris ORTIZ, DOM ,22
+191,↓2,ZHANG Wanling / GOI Rui Xuan, SGP ,22
+192,↓2,QIN Yuxuan / ZONG Geman, CHN ,20
+193,↓2,Jiayi ZHOU / Maia Christine CAVANAGH, NZL ,20
+194,↓2,Lucie MOBAREK / Clea DE STOPPELEIRE, FRA ,20
+195,↓2,Chelsea EDGHILL / Natalie CUMMINGS, GUY ,20
+196,↓2,Nathaly PAREDES / Angelica ARELLANO, ECU ,20
+197,↓2,Cory TELLEZ / Manuela ECHEVERRY, COL ,20
+198,↓2,Giulia TAKAHASHI / Luciana MITROFAN, BRA / ROU ,20
+199,↓2,Anastasiya DYMYTRENKO / Veronika MATIUNINA, UKR ,20
+200,↓2,CHOI Yeseo / PARK Gahyeon, KOR ,20
+201,↓2,Mia GRIESEL / Lea LACHENMAYER, GER ,20
+202,↓2,Cory TELLEZ / Juliana LOZADA, COL ,20
+203,↓2,Hana ARAPOVIC / Annett KAUFMANN, CRO / GER ,20
+204,↓2,GOI Rui Xuan / SER Lin Qian, SGP ,20
+205,↓2,HAN Feier / ZONG Geman, CHN ,19
+206,↓2,HUANG Hsin / HUANG Yu-Chiao, TPE ,19
+207,↓2,Chantal MANTZ / Franziska SCHREINER, GER ,19
+208,↓2,CHENG Hsien-Tzu / CHEN Ying-Chen, TPE ,19
+209,↓2,Nicole ARLIA / Ioana SINGEORZAN, ITA / ROU ,17
+210,↓2,Ines MATOS / Matilde PINTO, POR ,17
+211,↓2,Sally MOYLAND / Sarah JALLI, USA ,15
+212,↓2,Giulia TAKAHASHI / CHEN Chi-Shiuan, BRA / TPE ,15
+213,↓2,Eva BRITO / Esmerlyn CASTRO, DOM ,15
+214,↓2,Mabelyn ENRIQUEZ / Jenny CUX, GUA ,15
+215,↓2,Lucia FERNANDEZ / Marbella ACEVES, MEX ,15
+216,↓34,Rozalina KHADJIEVA / Markhabo MAGDIEVA, UZB ,15
+217,↓3,Musfiquh KALAM / Lailaa EDWARDS, RSA ,14
+218,↓3,Zauresh AKASHEVA / Sarvinoz MIRKADIROVA, KAZ ,14
+219,↓3,Offiong EDEM / Cecilia AKPAN, NGR ,14
+220,↓3,Avisha KARMAKAR / Prachi MAZUMDER, IND ,12
+221,↓3,Wanwisa AUEAWIRIYAYOTHIN / Wirakarn TAYAPITAK, THA ,12
+222,↓3,Andrea TODOROVIC / Izabela LUPULESKU, SRB ,12
+223,↓3,ZHOU Jingyi / SER Lin Qian, SGP ,12
+224,↓3,Camila ARGUELLES / Ana TOFANT, ARG / SLO ,11
+225,↓3,Reeth TENNISON / Sreeja AKULA, IND ,10
+226,↓3,Emily QUAN / Yishiuan LIN, USA ,10
+227,↓3,Hana ARAPOVIC / Dora COSIC , CRO ,10
+228,↓2,Anna BRZYSKA / Ilona SZTWIERTNIA, POL ,10
+229,↓2,CHENG Pusyuan / YEH Yi-Tian, TPE ,10
+230,↓2,Hasali Sanaya BUDDHADASA / Victoria ZHANG, AUS ,10
+231,↓2,Naomi PRANJKOVIC / Brianna BURGOS, GER / PUR ,10
+232,↓2,Sarvinoz MIRKADIROVA / Angelina ROMANOVSKAYA, KAZ ,10
+233,↓2,Kendra MOLNAR / Emma SZOSZNYAK, HUN ,10
+234,↓2,Farida BADAWY / Malamatenia PAPADIMITRIOU, EGY / GRE ,10
+235,↓2,Natalia BOGDANOWICZ / Weronika BOBEK, POL ,10
+236,↓2,Maria HERRERA / Andrea TERRAZAS, BOL ,10
+237,↓2,Lucero OVELAR / Leyla GOMEZ, PAR ,10
+238,↓2,Farida BADAWY / Patricia SANTOS, EGY / POR ,10
+239,↓2,Ainhoa CRISTOBAL / Ioana SINGEORZAN, ESP / ROU ,10
+240,↓2,Arantxa COSSIO ACEVES / Laura WATANABE, MEX / BRA ,10
+241,↓2,Anastassiya LAVROVA / Angelina ROMANOVSKAYA, KAZ ,10
+242,↓2,ZHANG Wanling / ZHOU Jingyi, SGP ,10
+243,↓2,Hana GODA / Malamatenia PAPADIMITRIOU, EGY / GRE ,10
+244,↓2,Lilou MASSART / Ilona SZTWIERTNIA, BEL / POL ,10
+245,↓2,WONG Xin Ru / SER Lin Qian, SGP ,10
+246,↓2,LYNE Karen / TEE Ai Xin, MAS ,10
+247,↓2,Isa COK / Agathe AVEZOU, FRA ,10
+248,↓2,YOO Yerin / PARK Gahyeon, KOR ,10
+249,↓2,Nicole ARLIA / Natalia BOGDANOWICZ, ITA / POL ,10
+250,↓2,Olufunke OSHONAIKE / Fatimo BELLO, NGR ,10
+251,↓2,Markhabo MAGDIEVA / Arujan KAMALOVA , UZB ,10
+252,↓2,Audrey ZARIF / Charlotte LUTZ, FRA ,10
+253,↓2,Maria MALDONADO / Mariagrazia LA TORRE SANCHEZ, PER ,10
+254,↓2,Emme ARIAS / Gabriela SUAREZ, ESA ,10
+255,↓2,Krystle HARVEY / Anthonette RILEY, BAR ,10
+256,↓2,Rheann CHUNG / Imani Astra Hadyia EDWARDS-TAYLOR, TTO ,10
+257,↓2,Sabine WINTER / Nina MITTELHAM, GER ,10
+258,↓2,LAI Chloe / LOY Ming Ying, SGP ,10
+259,↓2,ZHANG Wanling / CHENG Janissa, SGP ,10
+260,↓2,Fu YU / Jieni SHAO, POR ,10
+261,↓1,Maria XIAO / Lily ZHANG, ESP / USA ,8
+262,↓1,LEE Zion / JOO Cheonhui, KOR ,7
+263,,Filippa BERGAND / Rebecca MUSKANTOR, SWE ,6
+264,,Stephanie LOEUILLETTE / Pauline CHASSELIN, FRA ,6
+265,↓3,Ana TOFANT / Sara TOKIC, SLO ,5
+266,↓1,Giulia TAKAHASHI / Laura WATANABE, BRA ,5
+267,↓1,Lizdainet RODRIGUEZ / Estela CRESPO , CUB ,5
+268,↓1,Ximena FIGUEROA MUNOZ / Barbara SERNA, MEX ,5
+269,↓1,Krystle HARVEY / Angela REID, BAR ,5
+270,↓1,Linda ZADEROVA / Hana ARAPOVIC, CZE / CRO ,5
+271,↓1,Grace Rosi YEE / Touea TITANA, FIJ ,5
+272,↓1,Ana STOJANOVSKA / Katarina Laura MIHAILOV, MKD ,5
+273,↓1,Malamatenia PAPADIMITRIOU / Sophie EARLEY, GRE / ENG ,5
+274,↓1,Marla VIDAKOVIC / Agathe AVEZOU, CRO / FRA ,5
+275,↓1,Hannah TERAWAUEA / Seng YEE, FIJ ,5
+276,↓1,Tammi AGARI / Keala TEHAHETUA, PNG / PYF ,5
+277,↓1,Ema LABOSOVA / Zdena BLASKOVA, SVK / CZE ,5
+278,↓1,Elena ZAHARIA / Ioana SINGEORZAN, ROU ,5
+279,↓1,Suzana MILOSEVIC / Lichen CHEN, MNE / USA ,5
+280,↓1,Pauline CHASSELIN / Leili MOSTAFAVI, FRA ,5
+281,↓1,Sibel ALTINKAYA / Charlotte CAREY, TUR / WAL ,5
+282,↓1,Lea LACHENMAYER / Marla VIDAKOVIC, GER / CRO ,5
+283,↓1,Silvia COLL / Eugenia SASTRE, ESP ,5
+284,↓1,SER Lin Qian / Hana ARAPOVIC, SGP / CRO ,5
+285,↓1,Sofia-Xuan ZHANG / Jinnipa SAWETTABUT, ESP / THA ,5
+286,↓1,Reeth TENNISON / Tatiana KUKULKOVA, IND / SVK ,5
+287,↓1,Dora MADARASZ / Leila IMRE, HUN ,5
+288,↓1,Amelie SOLJA / Sibel ALTINKAYA, AUT / TUR ,5
+289,↓1,Yousra HELMY / Natalia BAJOR, EGY / POL ,5
+290,↓1,Anna HURSEY / Sophia KLEE, WAL / GER ,5
+291,↓1,Thuraia THOMAS / Jasmine BILLINGY, GUY ,5
+292,↓1,Keren CONSTANZA / Cecilia ORANTES, ESA ,5
+293,↓1,Sofia OSORIO / Mariam SOLIS, PAN ,5
+294,↓1,Imani Astra Hadyia EDWARDS-TAYLOR / Chloe FRASER, TTO ,5
+295,↓1,Anthonette RILEY / Kenady KING, BAR ,5
+296,↓1,Ana CODINA / Camila KAIZOJI, ARG ,5
+297,↓1,Mariangel DIAZ / Nathacha Dennys MATA APONTE, VEN ,5
+298,↓1,Luciana Andrea GRANADOS CHANG / Natzumi Valentina AQUIJE CONDEZO, PER ,5
+299,↓1,Lucero OVELAR / Cielo MUTTI, PAR ,5
+300,↓1,Fatimo BELLO / Rofiat JIMOH, NGR ,5
+301,↓1,Sukurat AIYELBEGAN / Abosede Esther AKINSETE, NGR ,5
+302,↓1,Cynthia KWABI / Cecilia FREMA, GHA ,5
+303,↓1,Mateja JEGER / Lea RAKOVAC, CRO ,5
+304,↓1,Leila IMRE / Leonie HARTBRICH, HUN ,5
+305,↓1,LAM Yee Lok / NG Wing Lam, HKG ,5
+306,↓1,Sarah HANFFOU / Vivien SCHOLZ, CMR / LUX ,5
+307,↓1,Clio BARCENAS / Arantxa COSSIO ACEVES, MEX ,5
+308,↓1,Marie MIGOT / Oceane GUISNEL, FRA ,5
+309,↓50,Valentina RONCALLO / Arianna BARANI, ITA ,5
+310,↓2,Julie VAN HAUWAERT / Sara DEVOS, BEL ,5
+311,↓2,Ayhika MUKHERJEE / Prapti SEN, IND ,4
+312,↓2,Christina KALLBERG / Filippa BERGAND, SWE ,4
+313,↓2,Anel BAKHYT / Angelina ROMANOVSKAYA, KAZ ,4
+314,↓1,Matilda HANSSON / Marina DONNER, SWE / FIN ,4
+315,↓1,Pauline CHASSELIN / Yuan WAN, FRA / GER ,4
+316,↓1,CHEN Yi / QIN Yuxuan, CHN ,4
+317,↓1,Vivien SCHOLZ / Aray ASHKEYEVA, LUX / KAZ ,4
+318,↓1,GOI Rui Xuan / ZENG Jian, SGP ,4
+319,↓1,HUANG Yu-Jie / YEH Yi-Tian, TPE ,4
+320,↓1,Simeen MOOKREY / Jesse NOMDO, RSA ,4
+321,↓1,Batool KHADER / Zeina SADAQA, JOR ,4
+322,↓1,Natalia BAJOR / Yuan WAN, POL / GER ,4
+323,↓1,Esther ORIBAMISE / Ajoke OJOMU, NGR ,4
+324,↓1,FAN Siqi / HE Zhuojia, CHN ,4
+325,↓1,Audrey ZARIF / Camille LUTZ, FRA ,4
+326,↓1,Lily ZHANG / Rachel SUNG, USA ,4
+327,↓1,Bruna TAKAHASHI / Giulia TAKAHASHI, BRA ,4
+328,↓130,Karoline MISCHEK / Filippa BERGAND, AUT / SWE ,4
+329,↓2,Charlotte CAREY / Sofia-Xuan ZHANG, WAL / ESP ,4
+330,↓2,Marwa ALHODABY / Mariam ALHODABY, EGY ,4
+331,↓2,Andrea TODOROVIC / Dragana VIGNJEVIC, SRB ,4
+332,↓1,Tamolwan KHETKHUAN / Jinnipa SAWETTABUT, THA ,3
+333,↓1,Anjali ROHILLA / Gayatri CHOUDHARY, IND ,3
+334,↓1,Anusha KUTUMBALE / Nithya MANI, IND ,3
+335,↓1,Reeth TENNISON / Swastika GHOSH, IND ,3
+336,↓1,LAM Yee Lok / ZHANG Wenjing, HKG ,3
+337,↓1,YOON Hyobin / JOO Cheonhui, KOR ,3
+338,↓1,LI Ching Wan / LAM Yee Lok, HKG ,3
+339,↓1,Tatiana KUKULKOVA / Charlotte LUTZ, SVK / FRA ,3
+340,↓1,Rachel MORET / Bernadett BALINT, SUI / HUN ,3
+341,↓1,Lara OPEKA / Enya MOLTARA, SLO ,3
+342,↓1,Nathalie MARCHETTI / Margo DEGRAEF, BEL ,3
+343,,Izabela LUPULESKU / Hana ARAPOVIC, SRB / CRO ,3
+344,↑33,Lea RAKOVAC / Hana ARAPOVIC, CRO ,3
+345,↑39,Solomiya BRATEYKO / Anastasiya DYMYTRENKO, UKR ,3
+346,↓16,Mateja JEGER / Hana ARAPOVIC, CRO ,2
+347,↓5,Neda SHAHSAVARI / Mehrsa MOSLEMI, IRI ,2
+348,↓4,Charlotte CAREY / Anna HURSEY, WAL ,2
+349,↓4,Ana TOFANT / Vivien SCHOLZ, SLO / LUX ,2
+350,↓4,CHEN Yi / KUAI Man, CHN ,2
+351,↓4,Rachel MORET / Natalia BAJOR, SUI / POL ,2
+352,↓4,Aiya ALIMBAYEVA / Alexandra SMIRNOVA, KAZ ,2
+353,↓4,Rachel MORET / Yangzi LIU, SUI / AUS ,2
+354,↓4,Sidelya MUTLU / Tsvetelina GEORGIEVA, BUL ,2
+355,↓4,Maria YOVKOVA / Kalina HRISTOVA, BUL ,2
+356,↓4,Gulchekhra KHUSSEINOVA / Anastassiya LAVROVA, KAZ ,2
+357,↓4,Lea PAULIN / Sara TOKIC, SLO ,2
+358,↓4,Suthasini SAWETTABUT / Jinnipa SAWETTABUT, THA ,2
+359,↓4,Ruqayyah KINOO / Oumehani HOSENALLY, MRI ,2
+360,↓4,Filippa BERGAND / Isa COK, SWE / FRA ,2
+361,↓4,LI Ching Wan / Sofia-Xuan ZHANG, HKG / ESP ,2
+362,↓4,Danni-Elle TOWNSEND / Hasali Sanaya BUDDHADASA , AUS ,2
+363,↓4,Maram ZOGHLAMI / Molka RIAHI, TUN ,2
+364,↓4,Farida BADAWY / Roa ZAKI, EGY ,2
+365,↓4,Franziska SCHREINER / Vivien SCHOLZ, GER / LUX ,2
+366,↓4,Sofia-Xuan ZHANG / Tin-Tin HO, ESP / ENG ,2
+367,↓4,Arisha MADAREE / Jade SASMAN, RSA ,2
+368,↓4,Boipelo MASHWABI / Boingotlo MOTHUPI, RSA ,2
+369,↓4,Margo DEGRAEF / Tatiana KUKULKOVA, BEL / SVK ,2
+370,↓4,Orawan PARANANG / ZHANG Wanling, THA / SGP ,2
+371,↓4,Irina CIOBANU / Andreea DRAGOMAN, ROU ,2
+372,↓4,Tania PLAIAN / Ioana SINGEORZAN, ROU ,2
+373,↓4,Yousra HELMY / Marina DONNER, EGY / FIN ,2
+374,↓4,Franziska SCHREINER / Diya Parag CHITALE, GER / IND ,2
+375,↓4,Gaia MONFARDINI / Ana TOFANT, ITA / SLO ,2
+376,↓4,Rinad EL-HASANI / Mira ALHAJ HASHEM, JOR ,2
+377,↓4,Hilda AGBOTTAH / Agnes COLEMAN, GHA ,2
+378,↓4,Malissa NASRI / Hadjer TAHMI, ALG ,2
+379,↓4,LAM Yee Lok / LEE Hoi Man Karen, HKG ,2
+380,↓4,Aishath NAZIM / Fathimath ALI, MDV ,2
+381,↓3,Sara TOKIC / Tjasa NOVAK, SLO ,2
+382,↓3,Irina CIOBANU / Tania PLAIAN, ROU ,2
+383,↓3,Ana CODINA / Camila ARGUELLES, ARG ,2
+384,↓3,LIU Hsing-Yin / CHENG Hsien-Tzu, TPE ,2
+385,↓3,HUANG Hsin / CHEN Ying-Chen, TPE ,2
+386,↓3,Veronika POLAKOVA / Hanka KODETOVA, CZE ,2
+387,↓2,Jessica PRATES / Mahayla Aime SARDA, BRA ,2
+388,↓2,Laura WATANABE / Karina Ayumi SENAGA SHIRAY, BRA ,2
+389,,Jana VASENDOVA / Helena SOMMEROVA, CZE ,2
+390,↓2,Franziska SCHREINER / Annett KAUFMANN, GER ,1
+391,↑2,Anastassiya LAVROVA / Aiya ALIMBAYEVA, KAZ ,1
+392,↑2,Thi Hong Loan LE / Arianna BARANI, ITA ,1
+393,↑2,Katerina TOMANOVSKA / Natalia BAJOR, CZE / POL ,1
+394,↑2,Charlotte CAREY / Gaia MONFARDINI, WAL / ITA ,1
+395,↑2,Sofia-Xuan ZHANG / Yangzi LIU, ESP / AUS ,1
+396,↑2,CHANG Li Sian Alice / LI YING Im, MAS ,1
+397,,Leila IMRE / Helga DARI, HUN ,1
+398,,Ana TOFANT / Valentina RONCALLO, SLO / ITA ,1
