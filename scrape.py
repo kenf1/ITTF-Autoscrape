@@ -58,7 +58,6 @@ def scrape_table(header_input,content_input):
     ittf_rank = pd.DataFrame(columns=new_colName)
     
 #data
-    content_input.find_all("tr",class_='rrow')
     for j in content_input.find_all("tr",class_="rrow")[0:]:
         row_data = j.find_all("td")
         ittf_rank.loc[len(ittf_rank)] = [tr.text for tr in row_data]

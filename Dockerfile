@@ -1,5 +1,5 @@
 #setup container
-FROM python:3.11.3-slim
+FROM python:3.11.6-slim
 COPY ./app ./app
 
 #install packages
